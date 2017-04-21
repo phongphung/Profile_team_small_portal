@@ -1,0 +1,418 @@
+{% extends "base.html" %}
+{% block title %}Weekly Report{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Weekly candidates</h3>
+
+                    <h3 class="panel-title pull-right">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                        Week <span class="badge badge-warning">{{week}}</span>
+                        Year <span class="badge badge-warning">{{year}}</span>
+                    </h3>
+                </div>
+                <table class="responsive table table-hover table-highlight">
+                    <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>GNIP</th>
+                        <th>Stream</th>
+                        <th>On-demand Seed Networks</th>
+                        <th>Seed Networks by S-score</th>
+                        <th>Sentifi Networks</th>
+                        <th>Mention</th>
+                        <th>Total</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="col-lg-4">
+                            Has description, has url
+                        </td>
+                        {% for i in range(source_1des_1url[0:len_source_des_url]|length) %}
+                        <td class="col-lg-2">
+                            {{"{:,}".format(source_1des_1url[i])}}
+                            {% if diff[i]['1-1desc_1url'] > 0 %}
+                                <h6 style= "color: green">+{{"{:,}".format(diff[i]['1-1desc_1url'])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(diff[i]['1-1desc_1url'])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Has description, no url
+                        </td>
+                        {% for i in range(source_1des_0url[0:len_source_des_url]|length) %}
+                        <td class="col-lg-2">
+                            {{"{:,}".format(source_1des_0url[i])}}
+                            {% if diff[i]['2-1desc_0url'] > 0 %}
+                                <h6 style= "color: green">+{{"{:,}".format(diff[i]['2-1desc_0url'])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(diff[i]['2-1desc_0url'])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>
+                            No description, has url
+                        </td>
+                        {% for i in range(source_0des_1url[0:len_source_des_url]|length) %}
+                        <td class="col-lg-2">
+                            {{"{:,}".format(source_0des_1url[i])}}
+                            {% if diff[i]['3-0desc_1url'] > 0 %}
+                                <h6 style= "color: green">+{{"{:,}".format(diff[i]['3-0desc_1url'])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(diff[i]['3-0desc_1url'])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>
+                            No description, no url
+                        </td>
+                        {% for i in range(source_0des_0url[0:len_source_des_url]|length) %}
+                        <td class="col-lg-2">
+                            {{"{:,}".format(source_0des_0url[i])}}
+                            {% if diff[i]['4-0desc_0url'] > 0 %}
+                                <h6 style= "color: green">+{{"{:,}".format(diff[i]['4-0desc_0url'])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(diff[i]['4-0desc_0url'])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>
+                            Total
+                        </td>
+                        {% for i in range(source_total[0:len_source_des_url]|length) %}
+                        <td class="col-lg-2">
+                            {{"{:,}".format(source_total[i])}}
+                            {% if diff[i]['total'] > 0 %}
+                                <h6 style= "color: green">+{{"{:,}".format(diff[i]['total'])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(diff[i]['total'])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- The breakdown by week table -->
+    <div class="row">
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Weekly candidates without description</h3>
+
+                    <h3 class="panel-title pull-right">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                        Week <span class="badge badge-warning">{{week}}</span>
+                        Year <span class="badge badge-warning">{{year}}</span>
+                    </h3>
+                </div>
+                <table class="responsive table table-hover table-highlight">
+                    <thead>
+                    <tr>
+                        <th>Number of tweets</th>
+                        <th>GNIP</th>
+                        <th>Stream</th>
+                        <th>On-demand Seed Networks</th>
+                        <th>Seed Networks by S-score</th>
+                        <th>Sentifi Networks</th>
+                        <th>Mention</th>
+                        <th>Other</th>
+                        <th>Total</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="col-lg-4">
+                            tweets: >= 200
+                        </td>
+                        {% for i in range(source_0des_gt200[0:len_source_0des]|length) %}
+                        <td class="col-lg-2">
+                            {{"{:,}".format(source_0des_gt200[i])}}
+                            {% if source_0des_gt200[i] > source_0des_gt200[i + len_source_0des] %}
+                                <h6 style= "color: green">+{{"{:,}".format(source_0des_gt200[i] - source_0des_gt200[i + len_source_0des])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(source_0des_gt200[i] - source_0des_gt200[i + len_source_0des])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+
+                    <tr>
+                        <td>
+                            tweets: 100 <= and < 200
+                        </td>
+                        {% for i in range(source_0des_gte100_lt200[0:len_source_0des]|length) %}
+                        <td class="col-lg-2">
+                            {{"{:,}".format(source_0des_gte100_lt200[i])}}
+                            {% if source_0des_gte100_lt200[i] > source_0des_gte100_lt200[i + len_source_0des] %}
+                                <h6 style= "color: green">+{{"{:,}".format(source_0des_gte100_lt200[i] - source_0des_gte100_lt200[i + len_source_0des])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(source_0des_gte100_lt200[i] - source_0des_gte100_lt200[i + len_source_0des])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>
+                            tweets: < 100
+                        </td>
+                        {% for i in range(source_0des_lt100[0:len_source_0des]|length) %}
+                        <td class="col-lg-2">
+                            {{"{:,}".format(source_0des_lt100[i])}}
+                            {% if source_0des_lt100[i] > source_0des_lt100[i + len_source_0des] %}
+                                <h6 style= "color: green">+{{"{:,}".format(source_0des_lt100[i] - source_0des_lt100[i + len_source_0des])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(source_0des_lt100[i] - source_0des_lt100[i + len_source_0des])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td class="col-lg-4">
+                            Total
+                        </td>
+                        {% for i in range(tweet_total[0:len_source_0des]|length) %}
+                        <td class="col-lg-2">
+                            {{"{:,}".format(tweet_total[i])}}
+                            {% if (source_0des_gt200[i] + source_0des_gte100_lt200[i] + source_0des_lt100[i] > source_0des_gt200[i + len_source_0des] + source_0des_gte100_lt200[i + len_source_0des] + source_0des_lt100[i + len_source_0des]) %}
+                                <h6 style= "color: green">+{{"{:,}".format(source_0des_gt200[i] + source_0des_gte100_lt200[i] + source_0des_lt100[i] - (source_0des_gt200[i + len_source_0des] + source_0des_gte100_lt200[i + len_source_0des] + source_0des_lt100[i + len_source_0des]))}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(source_0des_gt200[i] + source_0des_gte100_lt200[i] + source_0des_lt100[i] - (source_0des_gt200[i + len_source_0des] + source_0des_gte100_lt200[i + len_source_0des] + source_0des_lt100[i + len_source_0des]))}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Twitter status -->
+        <div class="col-lg-5 col-sm-6 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Twitter publisher status</h3>
+
+                    <h3 class="panel-title pull-right">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                        Week <span class="badge badge-warning">{{week}}</span>
+                        Year <span class="badge badge-warning">{{year}}</span>
+                    </h3>
+                </div>
+
+                <table class="responsive table table-hover">
+                    <thead>
+                    <tr>
+                        <th>Fields</th>
+                        <th>Number</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            Twitter broken avatar
+                        </td>
+                        <td>
+                            {{"{:,}".format(twitter_broken_avatar[0])}}
+                            {% if twitter_broken_avatar[0] > twitter_broken_avatar[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(twitter_broken_avatar[0] - twitter_broken_avatar[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(twitter_broken_avatar[0] - twitter_broken_avatar[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Twitter missing avatar
+                        </td>
+                        <td>
+                            {{"{:,}".format(twitter_missing_avatar[0])}}
+                            {% if twitter_missing_avatar[0] > twitter_missing_avatar[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(twitter_missing_avatar[0] - twitter_missing_avatar[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(twitter_missing_avatar[0] - twitter_missing_avatar[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Twitter missing ISO code
+                        </td>
+                        <td>
+                            {{"{:,}".format(twitter_missing_iso[0])}}
+                            {% if twitter_missing_iso[0] > twitter_missing_iso[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(twitter_missing_iso[0] - twitter_missing_iso[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(twitter_missing_iso[0] - twitter_missing_iso[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Twitter IDs with 2 or more Item Keys
+                        </td>
+                        <td>
+                            {{"{:,}".format(twitter_has_many_itemkey[0])}}
+                            {% if twitter_has_many_itemkey[0] > twitter_has_many_itemkey[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(twitter_has_many_itemkey[0] - twitter_has_many_itemkey[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(twitter_has_many_itemkey[0] - twitter_has_many_itemkey[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Twitter IDs with 2 or more PublisherID
+                        </td>
+                        <td>
+                            {{"{:,}".format(twitter_has_many_publisher[0])}}
+                            {% if twitter_has_many_publisher[0] > twitter_has_many_publisher[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(twitter_has_many_publisher[0] - twitter_has_many_publisher[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(twitter_has_many_publisher[0] - twitter_has_many_publisher[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Twitter IDs without Item Keys
+                        </td>
+                        <td>
+                            {{"{:,}".format(twitter_without_itemkey[0])}}
+                            {% if twitter_without_itemkey[0] > twitter_without_itemkey[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(twitter_without_itemkey[0] - twitter_without_itemkey[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(twitter_without_itemkey[0] - twitter_without_itemkey[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Publisher with "undecided" status
+                        </td>
+                        <td>
+                            not available
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="col-lg-7 col-sm-12 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Weekly breakdown of statuses by sources</h3>
+
+                    <h3 class="panel-title pull-right">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                        Week <span class="badge badge-warning">{{week}}</span>
+                        Year <span class="badge badge-warning">{{year}}</span>
+                    </h3>
+                </div>
+                <table class="responsive table table-hover table-highlight">
+                    <thead>
+                    <tr>
+                        <th>Measurement</th>
+                        <th>Disqualified</th>
+                        <th>Qualified by CR</th>
+                        <th>Qualified by Mentions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="col-lg-4">
+                            Gnip
+                        </td>
+                        {% for i in range(gnip_breakdown[0:3]|length) %}
+                        <td class="col-lg-1">
+                            {{"{:,}".format(gnip_breakdown[i])}}
+                            {% if gnip_breakdown[i] > gnip_breakdown[i + 3] %}
+                                <h6 style= "color: green">+{{"{:,}".format(gnip_breakdown[i] - gnip_breakdown[i + 3])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(gnip_breakdown[i] - gnip_breakdown[i + 3])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Stream
+                        </td>
+                        {% for i in range(stream_breakdown[0:3]|length) %}
+                        <td class="col-lg-1">
+                            {{"{:,}".format(stream_breakdown[i])}}
+                            {% if stream_breakdown[i] > stream_breakdown[i + 3] %}
+                                <h6 style= "color: green">+{{"{:,}".format(stream_breakdown[i] - stream_breakdown[i + 3])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(stream_breakdown[i] - stream_breakdown[i + 3])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>
+                            Seed
+                        </td>
+                        {% for i in range(seed_breakdown[0:3]|length) %}
+                        <td class="col-lg-1">
+                            {{"{:,}".format(seed_breakdown[i])}}
+                            {% if seed_breakdown[i] > seed_breakdown[i + 3] %}
+                                <h6 style= "color: green">+{{"{:,}".format(seed_breakdown[i] - seed_breakdown[i + 3])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(seed_breakdown[i] - seed_breakdown[i + 3])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Mention
+                        </td>
+                        {% for i in range(mention_breakdown[0:3]|length) %}
+                        <td class="col-lg-1">
+                            {{"{:,}".format(mention_breakdown[i])}}
+                            {% if mention_breakdown[i] > mention_breakdown[i + 3] %}
+                                <h6 style= "color: green">+{{"{:,}".format(mention_breakdown[i] - mention_breakdown[i + 3])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(mention_breakdown[i] - mention_breakdown[i + 3])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block loadscripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/responsive-tables.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}Check wrong Legal Name{% endblock %}
+{% block customhead %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/card.css') }}"/>
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <form method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <input id="input" class="form-control" type="file" name="file" class="file">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8">
+            <div class="card">
+                {% if file_info %}
+                <strong>{{file_info}}</strong>
+                    <form method="post" class="form-group">
+                        <input class="btn btn-default" type="submit" name="action" value="download">
+                    </form>
+                {% else %}
+                <strong>No file</strong>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8">
+            <div class="card">
+                {% if status %}
+                    <strong>{{status|safe}}</strong>
+                {% else %}
+                    <div class="panel panel-primary">
+                        <div class="panel-heading clearfix">
+                            <h3 class="panel-title pull-left">CSV format</h3>
+                        </div>
+                        <table class="responsive table table-hover">
+                            <thead>
+                            <tr>
+                                <th>field_name</th>
+                                <th>Description</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for name, des in field_description %}
+                                <tr>
+                                    <td style= "color: blue">
+                                        {{name}}
+                                    </td>
+                                    <td>
+                                        {{des}}
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

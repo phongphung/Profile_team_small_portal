@@ -1,0 +1,3220 @@
+- abbreviations: [Affaire Personnelle]
+  country: France
+  language: French
+  name: Affaire Personnelle
+- abbreviations: [Ag & Co. Kg, Ag & Co. Kg., Ag&Co. Kg, Ag&Co. Kg.]
+  country: Germany
+  language: German
+  name: Ag & Co Kg
+- abbreviations: [Ag & Co. Kgaa, Ag & Co. Kgaa., Ag&Co. Kgaa, Ag&Co. Kgaa.]
+  country: Germany
+  language: German
+  name: Ag & Co Kgaa
+- abbreviations: [Agrupamento Complementar De Empresas, ACE, A.C.E, A.C.E.]
+  country: Portugal
+  language: Portuguese
+  name: Agrupamento Complementar De Empresas
+- abbreviations: [!!python/str "Akciju Sabiedr\u012Bba", A/S, A / S]
+  country: Latvia
+  language: Latvian
+  name: !!python/str "Akciju Sabiedr\u012Bba"
+- abbreviations: [!!python/str "Akcin\u0117 Bendrov\u0117", AB, A.B, A.B.]
+  country: Lithuania
+  language: Lithuanian
+  name: !!python/str "Akcin\u0117 Bendrov\u0117"
+- abbreviations: [!!python/str "Akcionarsko Dru\u0161tvo", AD, A.D, A.D.]
+  country: Global
+  language: Bosnian
+  name: !!python/str "Akcionarsko Dru\u0161tvo"
+- abbreviations: [!!python/str "Akciov\xE1 Spolo\u010Dnos\u0165", AS, A.S, A.S.]
+  country: Slovakia
+  language: Slovak
+  name: !!python/str "Akciov\xE1 Spolo\u010Dnos\u0165"
+- abbreviations: [Aksjeselskaper, AS, A.S, A.S.]
+  country: Norway
+  language: Norwegian
+  name: Aksjeselskaper
+- abbreviations: [Aktiebolag, AB, A.B, A.B.]
+  country: Sweden
+  language: Swedish
+  name: Aktiebolag
+- abbreviations: [Aktiengesellschaft, AG, A.G, A.G.]
+  country: Global
+  language: German
+  name: Aktiengesellschaft
+- abbreviations: [Aktieselskab, A/S, A / S]
+  country: Denmark
+  language: Danish
+  name: Aktieselskab
+- abbreviations: [Aktionierno Drushestwo, AD, A.D, A.D.]
+  country: Bulgaria
+  language: German
+  name: Aktionierno Drushestwo
+- abbreviations: [Aktsiaselts, AS, A.S, A.S.]
+  country: Estonia
+  language: Estonian
+  name: Aktsiaselts
+- abbreviations: [Aktsionerno Druzhestvo Sus Spetsialna Investitsionna Tsel, ADSITz,
+    A.D.S.I.Tz, A.D.S.I.Tz.]
+  country: Bulgaria
+  language: Indonesian
+  name: Aktsionerno Druzhestvo Sus Spetsialna Investitsionna Tsel
+- abbreviations: [Aktsionernoe Obschestvo, !!python/str "\u0410\u041E", !!python/str "\u0410\
+      .\u041E", !!python/str "\u0410.\u041E."]
+  country: Kazakhstan
+  language: German
+  name: Aktsionernoe Obschestvo
+- abbreviations: [Allmennaksjeselskaper, ASA, A.S.A, A.S.A.]
+  country: Norway
+  language: Norwegian
+  name: Allmennaksjeselskaper
+- abbreviations: [Andelslag, AL, A.L, A.L., Anl, Anl.]
+  country: Norway
+  language: Norwegian
+  name: Andelslag
+- abbreviations: [!!python/str "Andelsselskab Med Begr\xE6nset Ansvar", AMBA, A.M.B.A,
+    A.M.B.A.]
+  country: Denmark
+  language: Danish
+  name: !!python/str "Andelsselskab Med Begr\xE6nset Ansvar"
+- abbreviations: [!!python/str "Anonim Limited \u015Eirketi", !!python/str "AL\u015E",
+    !!python/str "A.L.\u015E", !!python/str "A.L.\u015E."]
+  country: Turkey
+  language: Turkish
+  name: !!python/str "Anonim Limited \u015Eirketi"
+- abbreviations: [!!python/str "Anonim \u015Eirketi", !!python/str "A\u015E", !!python/str "A.\u015E",
+    !!python/str "A.\u015E."]
+  country: Turkey
+  language: Turkish
+  name: !!python/str "Anonim \u015Eirketi"
+- abbreviations: [Anonimi Biomixaniki Emporiki Eteria, ABEE, A.B.E.E, A.B.E.E.]
+  country: Greece
+  language: Greek
+  name: Anonimi Biomixaniki Emporiki Eteria
+- abbreviations: [Anonymous Eteria, AE, A.E, A.E.]
+  country: Greece
+  language: Greek
+  name: Anonymous Eteria
+- abbreviations: [Anpartselskab, ApS, ApS.]
+  country: Armenia
+  language: Norwegian
+  name: Anpartselskab
+- abbreviations: [Anpartsselskab, ApS, ApS.]
+  country: Denmark
+  language: Danish
+  name: Anpartsselskab
+- abbreviations: [Ansvarlig Selskap, ANS, A.N.S, A.N.S.]
+  country: Norway
+  language: Norwegian
+  name: Ansvarlig Selskap
+- abbreviations: [Aps & Co. K/S, Aps. & Co K/S, Aps. & Co. K/S, Aps&Co K/S, Aps&Co.
+      K/S, Aps & Co K / S, Aps & Co. K / S, Aps. & Co K / S, Aps. & Co. K / S]
+  country: Denmark
+  language: Danish
+  name: Aps & Co K/S
+- abbreviations: [Aruba Vrijgestelde Vennootschap, AVV, A.V.V, A.V.V.]
+  country: Aruba
+  language: Dutch
+  name: Aruba Vrijgestelde Vennootschap
+- abbreviations: [!!python/str "Asociaci\xF3n"]
+  country: Chile
+  language: Spanish
+  name: !!python/str "Asociaci\xF3n"
+- abbreviations: [!!python/str "Asociaci\xF3n Civil", AC, A.C, A.C.]
+  country: Mexico
+  language: Galician
+  name: !!python/str "Asociaci\xF3n Civil"
+- abbreviations: [!!python/str "Asociaci\xF3n En Participaci\xF3n", A&P, A & P, A.
+      & P.]
+  country: Mexico
+  language: Spanish
+  name: !!python/str "Asociaci\xF3n En Participaci\xF3n"
+- abbreviations: [!!python/str "Associa\xE7\xE3o", Ass, Ass.]
+  country: Portugal
+  language: Portuguese
+  name: !!python/str "Associa\xE7\xE3o"
+- abbreviations: [Association De Fait]
+  country: Global
+  language: French
+  name: Association De Fait
+- abbreviations: [!!python/str "Association Momentan\xE9e"]
+  country: Global
+  language: French
+  name: !!python/str "Association Momentan\xE9e"
+- abbreviations: [Association Sans But Lucratif, ASBL]
+  country: Global
+  language: French
+  name: Association Sans But Lucratif
+- abbreviations: [Associazione]
+  country: Italy
+  language: Italian
+  name: Associazione
+- abbreviations: [Atomiki Epihirisi]
+  country: Greece
+  language: Swahili
+  name: Atomiki Epihirisi
+- abbreviations: [Auto-Entrepreneur]
+  country: France
+  language: English
+  name: Auto Entrepreneur
+- abbreviations: [!!python/str "Avoin Yhti\xF6", AY, A.Y, A.Y.]
+  country: Finland
+  language: Finnish
+  name: !!python/str "Avoin Yhti\xF6"
+- abbreviations: [Azienda]
+  country: Italy
+  language: Italian
+  name: Azienda
+- abbreviations: [Be'eravon Mugbal, BM, B.M, B.M.]
+  country: Israel
+  language: Israeli
+  name: Be'eravon Mugbal
+- abbreviations: [!!python/str "Bengoshi-H\u014Djin"]
+  country: Japan
+  language: Swahili
+  name: !!python/str "Bengoshi H\u014Djin"
+- abbreviations: [Beperk]
+  country: South Africa
+  language: Afrikaans
+  name: Beperk
+- abbreviations: [Berhad, Bhd, Bhd.]
+  country: Global
+  language: Malay
+  name: Berhad
+- abbreviations: [Beslote Korporasie, BK, B.K, B.K.]
+  country: South Africa
+  language: Afrikaans
+  name: Beslote Korporasie
+- abbreviations: [Besloten Vennootschap, BV, B.V, B.V.]
+  country: Belgium
+  language: Dutch
+  name: Besloten Vennootschap
+- abbreviations: [Besloten Vennootschap Met Beperkte Aansprakelijkheid, BV, B.V, B.V.,
+    BVBA, B.V.B.A, B.V.B.A.]
+  country: Global
+  language: Dutch
+  name: Besloten Vennootschap Met Beperkte Aansprakelijkheid
+- abbreviations: [!!python/str "Betiti T\xE1rsas\xE1g", BT, B.T, B.T.]
+  country: Hungary
+  language: Hungarian
+  name: !!python/str "Betiti T\xE1rsas\xE1g"
+- abbreviations: [Bgb Gesellschaft]
+  country: Germany
+  language: German
+  name: Bgb Gesellschaft
+- abbreviations: [Borettslag, BL, B.L, B.L.]
+  country: Norway
+  language: Norwegian
+  name: Borettslag
+- abbreviations: [B.P.K, B.P.K.]
+  country: South Africa
+  language: ''
+  name: BPK
+- abbreviations: [Branch]
+  country: Global
+  language: English
+  name: Branch
+- abbreviations: [!!python/str "Branch Of An Overseas\u2019 Company"]
+  country: Guernsey
+  language: English
+  name: !!python/str "Branch Of An Overseas\u2019 Company"
+- abbreviations: [Branch Of Foreign Company]
+  country: Brunei Darussalam
+  language: English
+  name: Branch Of Foreign Company
+- abbreviations: [Branch Of Overseas Company]
+  country: Cyprus
+  language: English
+  name: Branch Of Overseas Company
+- abbreviations: [Buitenlandse Vennootschap]
+  country: Belgium
+  language: Dutch
+  name: Buitenlandse Vennootschap
+- abbreviations: [Business Cooperative]
+  country: Moldova
+  language: English
+  name: Business Co Operative
+- abbreviations: [!!python/str "Chih\u014D-K\u014Dky\u014D-Dantai"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Chih\u014D K\u014Dky\u014D Dantai"
+- abbreviations: [Civil Partnership]
+  country: Panama
+  language: English
+  name: Civil Partnership
+- abbreviations: [Close Corporation]
+  country: Namibia
+  language: English
+  name: Close Corporation
+- abbreviations: [Closed Corporation, CC, C.C, C.C.]
+  country: South Africa
+  language: English
+  name: Closed Corporation
+- abbreviations: [Cooperative, Co-op, Co-op., Coop, Coop., Co op, Co op.]
+  country: Global
+  language: English
+  name: Co Operative
+- abbreviations: [Cooperative De Responsabilidade Limitada, CRL]
+  country: Portugal
+  language: Portuguese
+  name: Co Operative De Responsabilidade Limitada
+- abbreviations: [Comandita Por Acciones, SCA, S.C.A, S.C.A.]
+  country: Colombia
+  language: Spanish
+  name: Comandita Por Acciones
+- abbreviations: [Comandita Simple]
+  country: Bolivia
+  language: Spanish
+  name: Comandita Simple
+- abbreviations: [Comerciante Individual]
+  country: Spain
+  language: Galician
+  name: Comerciante Individual
+- abbreviations: [Commanditaire Vennootschap, CV, C.V, C.V.]
+  country: Netherlands
+  language: Dutch
+  name: Commanditaire Vennootschap
+- abbreviations: [Commanditaire Vennootschap Op Aandelen, CvoA, CvoA.]
+  country: Netherlands
+  language: Dutch
+  name: Commanditaire Vennootschap Op Aandelen
+- abbreviations: [Commandite Company Limited By Shares, CCLS, C.C.L.S, C.C.L.S.]
+  country: Egypt
+  language: French
+  name: Commandite Company Limited By Shares
+- abbreviations: [Commendite Partnership By Share]
+  country: Qatar
+  language: French
+  name: Commendite Partnership By Share
+- abbreviations: [Commercial Agency]
+  country: Saudi Arabia
+  language: English
+  name: Commercial Agency
+- abbreviations: [Commercial Cooperative]
+  country: Armenia
+  language: English
+  name: Commercial Co Operative
+- abbreviations: [Commercial Representation]
+  country: Lebanon
+  language: English
+  name: Commercial Representation
+- abbreviations: [!!python/str "Compa\xF1ia", CA, C.A, C.A.]
+  country: Colombia
+  language: Spanish
+  name: !!python/str "Compa\xF1ia"
+- abbreviations: [!!python/str "Compa\xF1ia Anonima", CA, C.A, C.A.]
+  country: Ecuador
+  language: Spanish
+  name: !!python/str "Compa\xF1ia Anonima"
+- abbreviations: [!!python/str "Compa\xF1\xEDa Por Acciones", C x A, C. x A, C x A.,
+    C. x A.]
+  country: Dominican Republic
+  language: Spanish
+  name: !!python/str "Compa\xF1\xEDa Por Acciones"
+- abbreviations: [Companies Limited By Both Shares And Guarantee]
+  country: Solomon Islands
+  language: English
+  name: Companies Limited By Both Shares And Guarantee
+- abbreviations: [Companies Limited By Guarantee]
+  country: Solomon Islands
+  language: English
+  name: Companies Limited By Guarantee
+- abbreviations: [Companies Limited By Shares]
+  country: Solomon Islands
+  language: English
+  name: Companies Limited By Shares
+- abbreviations: [Company, Co, Co.]
+  country: Global
+  language: English
+  name: Company
+- abbreviations: [Company Limited, Co Ltd, Co. Ltd, Co. Ltd., Co.Ltd., 'Co.,Ltd',
+    'Co., Ltd', 'Co., Ltd.']
+  country: Global
+  language: English
+  name: Company Limited
+- abbreviations: [Company Limited By Guarantee]
+  country: Global
+  language: English
+  name: Company Limited By Guarantee
+- abbreviations: [Company Without Share Capital]
+  country: Barbados
+  language: English
+  name: Company Without Share Capital
+- abbreviations: [!!python/str "C\xF4ng Ty C\u1ED5 Ph\u1EA7n", Cty CTCP, CTCP]
+  country: Vietnam
+  language: Vietnamese
+  name: !!python/str "C\xF4ng Ty C\u1ED5 Ph\u1EA7n"
+- abbreviations: [!!python/str "C\xF4ng Ty Tr\xE1ch Nhi\u1EC7m H\u1EEFu H\u1EA1n",
+    Cty TNHH, TNHH]
+  country: Vietnam
+  language: Vietnamese
+  name: !!python/str "C\xF4ng Ty Tr\xE1ch Nhi\u1EC7m H\u1EEFu H\u1EA1n"
+- abbreviations: [Consorzio]
+  country: Italy
+  language: Italian
+  name: Consorzio
+- abbreviations: [!!python/str "Co\xF6peratie"]
+  country: Netherlands
+  language: Dutch
+  name: !!python/str "Co\xF6peratie"
+- abbreviations: [!!python/str "Co\xF6peratieve Vennootschap"]
+  country: Belgium
+  language: Dutch
+  name: !!python/str "Co\xF6peratieve Vennootschap"
+- abbreviations: [!!python/str "Co\xF6peratieve Vennootschap Met Beperkte Aansprakelijkheid",
+    CVBA, C.V.B.A, C.V.B.A.]
+  country: Belgium
+  language: Dutch
+  name: !!python/str "Co\xF6peratieve Vennootschap Met Beperkte Aansprakelijkheid"
+- abbreviations: [!!python/str "Co\xF6peratieve Vennootschap Met Onbeperkte Aansprakelijkheid",
+    CVOA, C.V.O.A, C.V.O.A.]
+  country: Belgium
+  language: Dutch
+  name: !!python/str "Co\xF6peratieve Vennootschap Met Onbeperkte Aansprakelijkheid"
+- abbreviations: [Cooperativa]
+  country: Spain
+  language: Spanish
+  name: Cooperativa
+- abbreviations: [!!python/str "Coop\xE9rative"]
+  country: Global
+  language: French
+  name: !!python/str "Coop\xE9rative"
+- abbreviations: [Corporation, Corp, Corp.]
+  country: Global
+  language: English
+  name: Corporation
+- abbreviations: [!!python/str "Cuideachta Phoibl\xED Theoranta", CPT, C.P.T, C.P.T.]
+  country: Ireland
+  language: Irish
+  name: !!python/str "Cuideachta Phoibl\xED Theoranta"
+- abbreviations: [Cvacommanditaire Vennootschap Op Aandelen, CVA, C.V.A]
+  country: Belgium
+  language: Dutch
+  name: Cvacommanditaire Vennootschap Op Aandelen
+- abbreviations: [D.O., DO]
+  country: Macedonia
+  language: Macedonian
+  name: D.O
+- abbreviations: [Delniska Druzba, DD, D.D, D.D.]
+  country: Slovenia
+  language: Slovenian
+  name: Delniska Druzba
+- abbreviations: [!!python/str "Dioni\u010Dko Dru\u0161tvo", DD, D.D, D.D.]
+  country: Croatia
+  language: Croatian
+  name: !!python/str "Dioni\u010Dko Dru\u0161tvo"
+- abbreviations: [!!python/str "Dokuritu-Gy\u014Dsei-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Dokuritu Gy\u014Dsei H\u014Djin"
+- abbreviations: [Domestic Limited Company, DLC, D.L.C, D.L.C.]
+  country: Bahamas
+  language: English
+  name: Domestic Limited Company
+- abbreviations: [Drujestvo S Ogranichena Otgovornost, OOD, O.O.D, O.O.D.]
+  country: Bulgaria
+  language: Bulgarian
+  name: Drujestvo S Ogranichena Otgovornost
+- abbreviations: [Drushestwo S Orgranitschena Otgowornost, OCD, O.C.D, O.C.D.]
+  country: Bulgaria
+  language: Bulgarian
+  name: Drushestwo S Orgranitschena Otgowornost
+- abbreviations: [!!python/str "Dru\u0161tvo Jednog Lica", DJL, D.J.L, D.J.L.]
+  country: Bosnia-Hercegovina
+  language: Bosnian
+  name: !!python/str "Dru\u0161tvo Jednog Lica"
+- abbreviations: [!!python/str "Dru\u0161tvo S Neograni\u010Denom Solidarnom Odgovorno\u0161\
+      \u0107ub", DNO, D.N.O, D.N.O.]
+  country: Bosnia-Hercegovina
+  language: Croatian
+  name: !!python/str "Dru\u0161tvo S Neograni\u010Denom Solidarnom Odgovorno\u0161\
+    \u0107ub"
+- abbreviations: [!!python/str "Dru\u0161tvo S Ograni\u010Denom Odgovorno\u0161\u0107\
+      u", DOO, D.O.O, D.O.O.]
+  country: Bosnia-Hercegovina
+  language: Croatian
+  name: !!python/str "Dru\u0161tvo S Ograni\u010Denom Odgovorno\u0161\u0107u"
+- abbreviations: [!!python/str "Dru\u017Eba Z Neomejeno Odgovornostjo", DNO, D.N.O,
+    D.N.O.]
+  country: Slovenia
+  language: Slovenian
+  name: !!python/str "Dru\u017Eba Z Neomejeno Odgovornostjo"
+- abbreviations: [!!python/str "Dru\u017Eba Z Omejano Odgovornostjo", DOO, D.O.O,
+    D.O.O.]
+  country: Slovenia
+  language: Slovenian
+  name: !!python/str "Dru\u017Eba Z Omejano Odgovornostjo"
+- abbreviations: [!!python/str "Dru\u017Estvo"]
+  country: Slovakia
+  language: Czech
+  name: !!python/str "Dru\u017Estvo"
+- abbreviations: [Ednolichen Turgovetz, ET, E.T, E.T.]
+  country: Bulgaria
+  language: Bulgarian
+  name: Ednolichen Turgovetz
+- abbreviations: [Ednolichno Aktsionerno Druzhestvo, EAD, E.A.D, E.A.D.]
+  country: Bulgaria
+  language: Bulgarian
+  name: Ednolichno Aktsionerno Druzhestvo
+- abbreviations: [Ednolichno Druzhestvo S Ogranichena Otgovornost, EOOD, E.O.O.D,
+    E.O.O.D.]
+  country: Bulgaria
+  language: Bulgarian
+  name: Ednolichno Druzhestvo S Ogranichena Otgovornost
+- abbreviations: [Eenmanszaak]
+  country: Netherlands
+  language: Dutch
+  name: Eenmanszaak
+- abbreviations: [Eenpersoons Besloten Vennootschap Met Beperkte Aansprakelijkheid,
+    EBVBA, E.B.V.B.A, E.B.V.B.A.]
+  country: Belgium
+  language: Dutch
+  name: Eenpersoons Besloten Vennootschap Met Beperkte Aansprakelijkheid
+- abbreviations: [!!python/str "Egy\xE9ni C\xE9g", EC, E.C, E.C.]
+  country: Hungary
+  language: Hungarian
+  name: !!python/str "Egy\xE9ni C\xE9g"
+- abbreviations: [!!python/str "Egy\xE9ni V\xE1llalkoz\xF3", EV, E.V, E.V.]
+  country: Hungary
+  language: Hungarian
+  name: !!python/str "Egy\xE9ni V\xE1llalkoz\xF3"
+- abbreviations: [Eingetragene Erwerbsgesellschaft, EEG, E.E.G, E.E.G.]
+  country: Austria
+  language: German
+  name: Eingetragene Erwerbsgesellschaft
+- abbreviations: [Eingetragene Genossenschaft, EG, E.G, E.G.]
+  country: Germany
+  language: German
+  name: Eingetragene Genossenschaft
+- abbreviations: [Eingetragener Kaufmann, EK, E.K, E.K.]
+  country: Germany
+  language: German
+  name: Eingetragener Kaufmann
+- abbreviations: [Eingetragener Verein, EV, E.V, E.V.]
+  country: Germany
+  language: German
+  name: Eingetragener Verein
+- abbreviations: [!!python/str "Einstaklingsfyrirt\xE6ki"]
+  country: Iceland
+  language: Icelandic
+  name: !!python/str "Einstaklingsfyrirt\xE6ki"
+- abbreviations: [Einzelfirma]
+  country: Germany
+  language: German
+  name: Einzelfirma
+- abbreviations: [Einzelunternehmen]
+  country: Germany
+  language: German
+  name: Einzelunternehmen
+- abbreviations: [!!python/str "Ekonomisk F\xF6rening", EF, E.F, E.F.]
+  country: Sweden
+  language: Swedish
+  name: !!python/str "Ekonomisk F\xF6rening"
+- abbreviations: [Empresa Individual De Responsabilidad Limitada, EIRL, E.I.R.L, E.I.R.L.]
+  country: Global
+  language: Spanish
+  name: Empresa Individual De Responsabilidad Limitada
+- abbreviations: [Empresa Publicas]
+  country: Portugal
+  language: Galician
+  name: Empresa Publicas
+- abbreviations: [Empresa Unipersonal, EU, E.U, E.U.]
+  country: Colombia
+  language: Spanish
+  name: Empresa Unipersonal
+- abbreviations: [Enkelt Bolag]
+  country: Sweden
+  language: Swedish
+  name: Enkelt Bolag
+- abbreviations: [Enkeltpersonforetak]
+  country: Norway
+  language: Norwegian
+  name: Enkeltpersonforetak
+- abbreviations: [Enskild Firma, EF, E.F, E.F.]
+  country: Sweden
+  language: Swedish
+  name: Enskild Firma
+- abbreviations: [Ente Morale]
+  country: Italy
+  language: Italian
+  name: Ente Morale
+- abbreviations: [Entreprise En Nom Personnel, EI, E.I, E.I.]
+  country: France
+  language: French
+  name: Entreprise En Nom Personnel
+- abbreviations: [Entreprise Individuelle, EI, E.I, E.I.]
+  country: France
+  language: French
+  name: Entreprise Individuelle
+- abbreviations: [!!python/str "Entreprise Unipersonelle \xC0 Responsabilit\xE9 Limit\xE9\
+      e", EURL, E.U.R.L]
+  country: France
+  language: French
+  name: !!python/str "Entreprise Unipersonelle \xC0 Responsabilit\xE9 Limit\xE9e"
+- abbreviations: [Etat]
+  country: Norway
+  language: French
+  name: Etat
+- abbreviations: [Eteria Periorismeris Efthinis, EPE, E.P.E, E.P.E.]
+  country: Greece
+  language: Greek
+  name: Eteria Periorismeris Efthinis
+- abbreviations: [Eterorithmi Etairia, EE, E.E, E.E.]
+  country: Greece
+  language: Greek
+  name: Eterorithmi Etairia
+- abbreviations: [Eterrorrythmos, EE, E.E, E.E.]
+  country: Greece
+  language: Greek
+  name: Eterrorrythmos
+- abbreviations: [European Economic Interest Group, EEIG, E.E.I.G, E.E.I.G.]
+  country: Austria
+  language: English
+  name: European Economic Interest Group
+- abbreviations: [Europeisk Ekonomisk Intressegruppering, EEIG, E.E.I.G, E.E.I.G.]
+  country: Finland
+  language: Swedish
+  name: Europeisk Ekonomisk Intressegruppering
+- abbreviations: [Exempt Company]
+  country: Global
+  language: English
+  name: Exempt Company
+- abbreviations: [Exempt Insurance Company]
+  country: Global
+  language: English
+  name: Exempt Insurance Company
+- abbreviations: [Exempt Investment Scheme]
+  country: Guernsey
+  language: English
+  name: Exempt Investment Scheme
+- abbreviations: [Exempt Limited Partnership]
+  country: Turks and Caicos Islands
+  language: English
+  name: Exempt Limited Partnership
+- abbreviations: [Exempt Private Company]
+  country: Cyprus
+  language: English
+  name: Exempt Private Company
+- abbreviations: [Exempted Company]
+  country: Vanuatu
+  language: English
+  name: Exempted Company
+- abbreviations: [Exempted Limited Partnership, ELP, E.L.P, E.L.P.]
+  country: Global
+  language: English
+  name: Exempted Limited Partnership
+- abbreviations: [External Company]
+  country: Barbados
+  language: English
+  name: External Company
+- abbreviations: [Family Owned Business]
+  country: India
+  language: English
+  name: Family Owned Business
+- abbreviations: [Feitelijke Vereniging]
+  country: Belgium
+  language: Dutch
+  name: Feitelijke Vereniging
+- abbreviations: [Financial Corporation, Financial Corp, Financial Corp.]
+  country: Global
+  language: English
+  name: Financial Corporation
+- abbreviations: [Firma, FA, F.A, F.A.]
+  country: Indonesia
+  language: Indonesian
+  name: Firma
+- abbreviations: [!!python/str "Firma Enskild N\xE4ringsidkare"]
+  country: Finland
+  language: Swedish
+  name: !!python/str "Firma Enskild N\xE4ringsidkare"
+- abbreviations: [Fond]
+  country: Denmark
+  language: Danish
+  name: Fond
+- abbreviations: [Fonds Commun De Placement, FCP, F.C.P, F.C.P.]
+  country: France
+  language: French
+  name: Fonds Commun De Placement
+- abbreviations: [Foreign Cooperative Company]
+  country: China
+  language: English
+  name: Foreign Co Operative Company
+- abbreviations: [Foreign Company]
+  country: Global
+  language: English
+  name: Foreign Company
+- abbreviations: [Foreign Corporation]
+  country: Panama
+  language: English
+  name: Foreign Corporation
+- abbreviations: [Foreign Sales Corporation]
+  country: Barbados
+  language: English
+  name: Foreign Sales Corporation
+- abbreviations: [!!python/str "F\xF6rening"]
+  country: Sweden
+  language: Swedish
+  name: !!python/str "F\xF6rening"
+- abbreviations: [Free Zone Company, FZC, F.Z.C, F.Z.C.]
+  country: United Arab Emirates
+  language: English
+  name: Free Zone Company
+- abbreviations: [Free Zone Establishment, FZE, F.Z.E, F.Z.E.]
+  country: United Arab Emirates
+  language: English
+  name: Free Zone Establishment
+- abbreviations: [Friendly Society]
+  country: Ireland
+  language: English
+  name: Friendly Society
+- abbreviations: [Fundacion]
+  country: Spain
+  language: Galician
+  name: Fundacion
+- abbreviations: [!!python/str "F\xFC\xFCsilisest Isikust Ettev\xF5tja", FIE, F.I.E,
+    F.I.E.]
+  country: Estonia
+  language: Estonian
+  name: !!python/str "F\xFC\xFCsilisest Isikust Ettev\xF5tja"
+- abbreviations: [Fylkeskommunalt Foretak, FKF, F.K.F, F.K.F.]
+  country: Norway
+  language: Norwegian
+  name: Fylkeskommunalt Foretak
+- abbreviations: [!!python/str "Gakk\u014D-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Gakk\u014D H\u014Djin"
+- abbreviations: [General (full Liability) Partnership]
+  country: Moldova
+  language: English
+  name: General Full Liability Partnership
+- abbreviations: [General Partnership]
+  country: Global
+  language: English
+  name: General Partnership
+- abbreviations: [General Partnerships]
+  country: Bahrain
+  language: English
+  name: General Partnerships
+- abbreviations: [Genossenschaft, Gen, Gen.]
+  country: Germany
+  language: German
+  name: Genossenschaft
+- abbreviations: [Gesellschaft Burgerlichen Rechts, GbR, GbR.]
+  country: Germany
+  language: German
+  name: Gesellschaft Burgerlichen Rechts
+- abbreviations: [!!python/str "Gesellschaft Mbh Or Gesellschaft Mit Beschr\xE4nkter\
+      \ Haftung", GmbH, GmbH.]
+  country: Austria
+  language: German
+  name: !!python/str "Gesellschaft Mbh Or Gesellschaft Mit Beschr\xE4nkter Haftung"
+- abbreviations: [Gesellschaft Mit Beschraenker Haftung, Gesellschaft mbH, GmbH.]
+  country: Germany
+  language: German
+  name: Gesellschaft Mit Beschraenker Haftung
+- abbreviations: [!!python/str "Gesellschaft Nach B\xFCrgerlichem Recht", GesnBR,
+    GesnBR.]
+  country: Austria
+  language: German
+  name: !!python/str "Gesellschaft Nach B\xFCrgerlichem Recht"
+- abbreviations: [Gewone Commanditaire Vennootshap, GCV, G.C.V, G.C.V.]
+  country: Belgium
+  language: French
+  name: Gewone Commanditaire Vennootshap
+- abbreviations: [Global Business Company 1, GBC 1, G.B.C 1, G.B.C. 2]
+  country: Mauritius
+  language: English
+  name: Global Business Company 1
+- abbreviations: [Global Business Company 2, GBC 2, G.B.C 2, G.B.C. 3]
+  country: Mauritius
+  language: English
+  name: Global Business Company 2
+- abbreviations: [GmbH & Co., GmbH. & Co, GmbH. & Co., GmbH&Co, GmbH&Co.]
+  country: Germany
+  language: German
+  name: GmbH & Co
+- abbreviations: [GmbH & Co. Kg, GmbH & Co. Kg., GmbH. & Co Kg, GmbH. & Co. Kg, GmbH.
+      & Co. Kg., GmbH&Co Kg, GmbH&Co. Kg, GmbH&Co. Kg.]
+  country: Germany
+  language: German
+  name: GmbH & Co Kg
+- abbreviations: [GmbH & Co. Kgaa, GmbH & Co. Kgaa., GmbH. & Co Kgaa, GmbH. & Co.
+      Kgaa, GmbH. & Co. Kgaa., GmbH&Co Kgaa, GmbH&Co. Kgaa, GmbH&Co. Kgaa.]
+  country: Germany
+  language: German
+  name: GmbH & Co Kgaa
+- abbreviations: [GmbH & Co. Ohg, GmbH & Co. Ohg., GmbH. & Co Ohg, GmbH. & Co. Ohg,
+    GmbH. & Co. Ohg., GmbH&Co Ohg, GmbH&Co. Ohg, GmbH&Co. Ohg.]
+  country: Germany
+  language: German
+  name: GmbH & Co Ohg
+- abbreviations: [!!python/str "G\u014Dd\u014D-Kaisha", GK, G.K, G.K.]
+  country: Japan
+  language: Japanese
+  name: !!python/str "G\u014Dd\u014D Kaisha"
+- abbreviations: [!!python/str "G\u014Dmei-Kaisha", GMK, G.M.K, G.M.K.]
+  country: Japan
+  language: Japanese
+  name: !!python/str "G\u014Dmei Kaisha"
+- abbreviations: [!!python/str "G\u014Dshi-Kaisha", GSK, G.S.K, G.S.K.]
+  country: Japan
+  language: Japanese
+  name: !!python/str "G\u014Dshi Kaisha"
+- abbreviations: [Gosudarstvenoe Predpriyatie, !!python/str "\u0413\u041F", !!python/str "\u0413\
+      .\u041F", !!python/str "\u0413.\u041F."]
+  country: Kazakhstan
+  language: Russian
+  name: Gosudarstvenoe Predpriyatie
+- abbreviations: [!!python/str "Groupement D\u2019int\xE9ret \xC9conomique", GIE,
+    G.I.E, G.I.E.]
+  country: France
+  language: French
+  name: !!python/str "Groupement D\u2019int\xE9ret \xC9conomique"
+- abbreviations: [Gruppen]
+  country: Norway
+  language: German
+  name: Gruppen
+- abbreviations: [Handelsbolag, HB, H.B, H.B.]
+  country: Sweden
+  language: Swedish
+  name: Handelsbolag
+- abbreviations: [Hapja Hoesa]
+  country: South Korea
+  language: Korean
+  name: Hapja Hoesa
+- abbreviations: [Hapmyoung Hoesa]
+  country: South Korea
+  language: Korean
+  name: Hapmyoung Hoesa
+- abbreviations: [Helseforetak, HF]
+  country: Norway
+  language: Norwegian
+  name: Helseforetak
+- abbreviations: [Hindu Undivided Family, HUF, H.U.F, H.U.F.]
+  country: India
+  language: English
+  name: Hindu Undivided Family
+- abbreviations: [!!python/str "Hlutaf\xE9lag", HF, H.F, H.F.]
+  country: Iceland
+  language: Icelandic
+  name: !!python/str "Hlutaf\xE9lag"
+- abbreviations: [Holding Company, Holding Co, Holding Co., Hldgs Co, Hldgs Co.]
+  country: Global
+  language: English
+  name: Holding Company
+- abbreviations: [!!python/str "H\u1EE3p T\xE1c X\xE3"]
+  country: Vietnam
+  language: Vietnamese
+  name: !!python/str "H\u1EE3p T\xE1c X\xE3"
+- abbreviations: [Hybrid 'cap 285' Company]
+  country: British Virgin Islands
+  language: English
+  name: Hybrid 'cap 285' Company
+- abbreviations: [Hybrid Company]
+  country: Turks and Caicos Islands
+  language: English
+  name: Hybrid Company
+- abbreviations: [I.C.D.P, I.C.D.P.]
+  country: Italy
+  language: ''
+  name: ICDP
+- abbreviations: [Ichibu-Jimu-Kumiai]
+  country: Japan
+  language: Japanese
+  name: Ichibu Jimu Kumiai
+- abbreviations: [!!python/str "Ideell F\xF6rening"]
+  country: Global
+  language: Swedish
+  name: !!python/str "Ideell F\xF6rening"
+- abbreviations: [Incorporated, Inc, Inc.]
+  country: Global
+  language: English
+  name: Incorporated
+- abbreviations: [!!python/str "Individu\u0101lais Komersants", IK, I.K, I.K.]
+  country: Latvia
+  language: Latvian
+  name: !!python/str "Individu\u0101lais Komersants"
+- abbreviations: [Individualais Uznemums, IU, I.U, I.U.]
+  country: Latvia
+  language: Latvian
+  name: Individualais Uznemums
+- abbreviations: [!!python/str "Individuali \u012Emon\u0117", !!python/str "I\u012E",
+    !!python/str "I.\u012E", !!python/str "I.\u012E."]
+  country: Lithuania
+  language: Lithuanian
+  name: !!python/str "Individuali \u012Emon\u0117"
+- abbreviations: [Individualny Predprinimatel, IP, I.P, I.P.]
+  country: Russia
+  language: Russian
+  name: Individualny Predprinimatel
+- abbreviations: [Interessentskab, I/S, I / S]
+  country: Denmark
+  language: Danish
+  name: Interessentskab
+- abbreviations: [Interkommunalt Selskap, IKS, I.K.S, I.K.S.]
+  country: Norway
+  language: Norwegian
+  name: Interkommunalt Selskap
+- abbreviations: [Intermediary, NT, N.T, N.T.]
+  country: Canada
+  language: English
+  name: Intermediary
+- abbreviations: [International Business Company, IBC, I.B.C, I.B.C.]
+  country: Global
+  language: English
+  name: International Business Company
+- abbreviations: [International Company]
+  country: Guernsey
+  language: English
+  name: International Company
+- abbreviations: [International Holding Company]
+  country: Malta
+  language: English
+  name: International Holding Company
+- abbreviations: [International Limited Partnership]
+  country: Brunei Darussalam
+  language: English
+  name: International Limited Partnership
+- abbreviations: [International Trading Company]
+  country: Malta
+  language: English
+  name: International Trading Company
+- abbreviations: [International Trust]
+  country: Global
+  language: English
+  name: International Trust
+- abbreviations: [Investment Limited Partnership]
+  country: Ireland
+  language: English
+  name: Investment Limited Partnership
+- abbreviations: [!!python/str "Ippan-Shadan-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Ippan Shadan H\u014Djin"
+- abbreviations: [!!python/str "Ippan-Zaidan-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Ippan Zaidan H\u014Djin"
+- abbreviations: [!!python/str "Iry\u014D-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Iry\u014D H\u014Djin"
+- abbreviations: [!!python/str "Javno Trgova\u010Dko Dru\u0161tvo", JTD, J.T.D, J.T.D.]
+  country: Croatia
+  language: Croatian
+  name: !!python/str "Javno Trgova\u010Dko Dru\u0161tvo"
+- abbreviations: [!!python/str "Jednoosobowa Dzia\u0142alno\u015B\u0107 Gospodarcza"]
+  country: Poland
+  language: Polish
+  name: !!python/str "Jednoosobowa Dzia\u0142alno\u015B\u0107 Gospodarcza"
+- abbreviations: [Joint Liability Company]
+  country: Guatemala
+  language: English
+  name: Joint Liability Company
+- abbreviations: [Joint Liability Partnership]
+  country: Kuwait
+  language: English
+  name: Joint Liability Partnership
+- abbreviations: [Joint Stock Companies]
+  country: Bahrain
+  language: English
+  name: Joint Stock Companies
+- abbreviations: [Joint Stock Company, JSC, J.S.C, J.S.C., KSC, K.S.C, K.S.C., ShA,
+    Sh.A, Sh.A.]
+  country: Egypt
+  language: English
+  name: Joint Stock Company
+- abbreviations: [Joint Stock Corporation, JSC, J.S.C, J.S.C.]
+  country: Saudi Arabia
+  language: English
+  name: Joint Stock Corporation
+- abbreviations: [Joint Stock Limited Liability Company]
+  country: China
+  language: English
+  name: Joint Stock Limited Liability Company
+- abbreviations: [Joint Venture, JV, J.V, J.V.]
+  country: Kyrgyzstan
+  language: English
+  name: Joint Venture
+- abbreviations: [Joint Venture Company]
+  country: Bolivia
+  language: English
+  name: Joint Venture Company
+- abbreviations: [Joint Ventures]
+  country: Bahrain
+  language: English
+  name: Joint Ventures
+- abbreviations: [!!python/str "Julkinen Osakeyhti\xF6", OYJ, O.Y.J, O.Y.J.]
+  country: Finland
+  language: Finnish
+  name: !!python/str "Julkinen Osakeyhti\xF6"
+- abbreviations: [Juseok Hoesa]
+  country: South Korea
+  language: Korean
+  name: Juseok Hoesa
+- abbreviations: [Kabushiki Gaisha, KK, K.K, K.K.]
+  country: Japan
+  language: Japanese
+  name: Kabushiki Gaisha
+- abbreviations: [Kabushiki Kaisha, KK, K.K, K.K.]
+  country: Japan
+  language: Japanese
+  name: Kabushiki Kaisha
+- abbreviations: [!!python/str "Kansa-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Kansa H\u014Djin"
+- abbreviations: [!!python/str "K\u014Ddan"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "K\u014Ddan"
+- abbreviations: [!!python/str "K\u014Dko"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "K\u014Dko"
+- abbreviations: [!!python/str "Kokuritsu-Daigaku-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Kokuritsu Daigaku H\u014Djin"
+- abbreviations: [!!python/str "Kollektiv \u015Eirketi", Kol SrK, Kol. SrK, Kol. SrK.]
+  country: Turkey
+  language: Turkish
+  name: !!python/str "Kollektiv \u015Eirketi"
+- abbreviations: [!!python/str "Komandit \u015Eirketi", Kom SrK, Kom. SrK, Kom. SrK.]
+  country: Turkey
+  language: Turkish
+  name: !!python/str "Komandit \u015Eirketi"
+- abbreviations: [!!python/str "Komanditin\u0117 \u016Akin\u0117 Bendrija", !!python/str "K\u016A\
+      B", !!python/str "K.\u016A.B", !!python/str "K.\u016A.B."]
+  country: Lithuania
+  language: Lithuanian
+  name: !!python/str "Komanditin\u0117 \u016Akin\u0117 Bendrija"
+- abbreviations: [!!python/str "Komanditna Delniska Dru\u017Eba", KDD, K.D.D, K.D.D.]
+  country: Slovenia
+  language: Slovenian
+  name: !!python/str "Komanditna Delniska Dru\u017Eba"
+- abbreviations: [!!python/str "Komanditna Dru\u017Eba", KD, K.D, K.D.]
+  country: Slovenia
+  language: Slovenian
+  name: !!python/str "Komanditna Dru\u017Eba"
+- abbreviations: [!!python/str "Komanditn\xE1 Spolo\u010Dnos\u0165", KS, K.S, K.S.]
+  country: Slovakia
+  language: Slovak
+  name: !!python/str "Komanditn\xE1 Spolo\u010Dnos\u0165"
+- abbreviations: [!!python/str "Komanditn\xED Spole\u010Dnost", KS, K.S, K.S.]
+  country: Czech Republic
+  language: Czech
+  name: !!python/str "Komanditn\xED Spole\u010Dnost"
+- abbreviations: [Komanditno Drushestwo, KD, K.D, K.D.]
+  country: Bulgaria
+  language: Bulgarian
+  name: Komanditno Drushestwo
+- abbreviations: [Komanditno Drushestwo S Akzii, KDA, K.D.A, K.D.A.]
+  country: Bulgaria
+  language: Bulgarian
+  name: Komanditno Drushestwo S Akzii
+- abbreviations: [!!python/str "Komanditno Dru\u0161tvo", KD, K.D, K.D.]
+  country: Global
+  language: Slovenian
+  name: !!python/str "Komanditno Dru\u0161tvo"
+- abbreviations: [!!python/str "Komand\u012Btsabiedr\u012Bba", KS, K.S, K.S.]
+  country: Latvia
+  language: Latvian
+  name: !!python/str "Komand\u012Btsabiedr\u012Bba"
+- abbreviations: [Komandittselskap, KS, K.S, K.S.]
+  country: Norway
+  language: Norwegian
+  name: Komandittselskap
+- abbreviations: [Komandytne Tovarystvo, KT, K.T, K.T.]
+  country: Ukraine
+  language: Slovak
+  name: Komandytne Tovarystvo
+- abbreviations: [!!python/str "Kommandiittiyhti\xF6", KY, K.Y, K.Y.]
+  country: Finland
+  language: Finnish
+  name: !!python/str "Kommandiittiyhti\xF6"
+- abbreviations: [Kommanditaktieselskab, KA/S, KA / S]
+  country: Denmark
+  language: Danish
+  name: Kommanditaktieselskab
+- abbreviations: [Kommanditbolag, KB, K.B, K.B.]
+  country: Finland
+  language: Finnish
+  name: Kommanditbolag
+- abbreviations: [Kommanditbolag, KB, K.B, K.B.]
+  country: Sweden
+  language: Swedish
+  name: Kommanditbolag
+- abbreviations: [Kommanditerwerbsgesellschaft, KEG, K.E.G, K.E.G.]
+  country: Germany
+  language: German
+  name: Kommanditerwerbsgesellschaft
+- abbreviations: [Kommanditgesellschaft, KG, K.G, K.G.]
+  country: Germany
+  language: German
+  name: Kommanditgesellschaft
+- abbreviations: [Kommanditgesellschaft Auf Aktien, KGAA, K.G.A.A, K.G.A.A.]
+  country: Germany
+  language: German
+  name: Kommanditgesellschaft Auf Aktien
+- abbreviations: [Kommanditselskab, K/S, K / S]
+  country: Denmark
+  language: Swedish
+  name: Kommanditselskab
+- abbreviations: [!!python/str "Kommunal Aff\xE4rsverk"]
+  country: Finland
+  language: Finnish
+  name: !!python/str "Kommunal Aff\xE4rsverk"
+- abbreviations: [Kommunalt Foretak, KF, K.F, K.F.]
+  country: Norway
+  language: Norwegian
+  name: Kommunalt Foretak
+- abbreviations: [Kooperativ]
+  country: Sweden
+  language: German
+  name: Kooperativ
+- abbreviations: [Koperasi]
+  country: Indonesia
+  language: Indonesian
+  name: Koperasi
+- abbreviations: [!!python/str "K\u014Dritsu-Daigaku-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "K\u014Dritsu Daigaku H\u014Djin"
+- abbreviations: [!!python/str "Korl\xE1tolt Felel\xF6ss\xE9g\xFB T\xE1rsas\xE1g",
+    KFT, K.F.T, K.F.T.]
+  country: Hungary
+  language: Hungarian
+  name: !!python/str "Korl\xE1tolt Felel\xF6ss\xE9g\xFB T\xE1rsas\xE1g"
+- abbreviations: [!!python/str "K\u014Dsha"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "K\u014Dsha"
+- abbreviations: [!!python/str "Koueki-Shadan-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Koueki Shadan H\u014Djin"
+- abbreviations: [!!python/str "Koueki-Zaidan-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Koueki Zaidan H\u014Djin"
+- abbreviations: [!!python/str "K\xF6zhaszn\xFA T\xE1rsas\xE1g", KHT, K.H.T, K.H.T.]
+  country: Hungary
+  language: Hungarian
+  name: !!python/str "K\xF6zhaszn\xFA T\xE1rsas\xE1g"
+- abbreviations: [!!python/str "K\xF6zkereseti T\xE1rsas\xE1g", KKT, K.K.T, K.K.T.]
+  country: Hungary
+  language: Hungarian
+  name: !!python/str "K\xF6zkereseti T\xE1rsas\xE1g"
+- abbreviations: [!!python/str "K\xF6z\xF6s V\xE1llalat", KV, K.V, K.V.]
+  country: Hungary
+  language: Hungarian
+  name: !!python/str "K\xF6z\xF6s V\xE1llalat"
+- abbreviations: [Kumiai]
+  country: Japan
+  language: Japanese
+  name: Kumiai
+- abbreviations: [Kunnallinen Liikelaitos]
+  country: Finland
+  language: Finnish
+  name: Kunnallinen Liikelaitos
+- abbreviations: [Kuwaiti Private Shareholding Company, KSC]
+  country: Kuwait
+  language: English
+  name: Kuwaiti Private Shareholding Company
+- abbreviations: [!!python/str "Ky\u014Dd\u014D-Kumiai"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Ky\u014Dd\u014D Kumiai"
+- abbreviations: [Lease Enterprise]
+  country: Moldova
+  language: English
+  name: Lease Enterprise
+- abbreviations: [!!python/str "Li\xEAn Doanh"]
+  country: Vietnam
+  language: Vietnamese
+  name: !!python/str "Li\xEAn Doanh"
+- abbreviations: [Limitada, Ltda, Ltda.]
+  country: Global
+  language: Spanish
+  name: Limitada
+- abbreviations: [Limited, Ltd, Ltd.]
+  country: Global
+  language: English
+  name: Limited
+- abbreviations: [Limited By Guarantee, Ltd/Gte, Ltd./Gte., Ltd / Gte, Ltd. / Gte.]
+  country: Global
+  language: English
+  name: Limited By Guarantee
+- abbreviations: [Limited Company, LC, L.C, L.C., Ltd Co, Ltd. Co, Ltd. Co.]
+  country: Global
+  language: English
+  name: Limited Company
+- abbreviations: [Limited Duration Company, LDC, L.D.C, L.D.C.]
+  country: Bahamas
+  language: English
+  name: Limited Duration Company
+- abbreviations: [Limited Duration Exempt Company]
+  country: Cayman Islands
+  language: English
+  name: Limited Duration Exempt Company
+- abbreviations: [Limited Liability Companies]
+  country: Global
+  language: English
+  name: Limited Liability Companies
+- abbreviations: [Limited Liability Company, LLC, L.L.C, L.L.C., Shpk, Sh.pk, Sh.pk.,
+    WLL, W.L.L, W.L.L.]
+  country: Global
+  language: English
+  name: Limited Liability Company
+- abbreviations: [Limited Liability Corporation]
+  country: Guatemala
+  language: English
+  name: Limited Liability Corporation
+- abbreviations: [Limited Liability Limited Partnership, LLLP, L.L.L.P, L.L.L.P.]
+  country: Global
+  language: English
+  name: Limited Liability Limited Partnership
+- abbreviations: [Limited Liability Partnership, LLP, L.L.P, L.L.P.]
+  country: Global
+  language: English
+  name: Limited Liability Partnership
+- abbreviations: [Limited Life Company]
+  country: Belize
+  language: English
+  name: Limited Life Company
+- abbreviations: [Limited Partnership, LP, L.P, L.P.]
+  country: Global
+  language: English
+  name: Limited Partnership
+- abbreviations: [Limited Partnerships]
+  country: Bahrain
+  language: English
+  name: Limited Partnerships
+- abbreviations: [!!python/str "Limitet \u015Eirket", !!python/str "Ltd \u015Eti",
+    !!python/str "Ltd. \u015Eti", !!python/str "Ltd. \u015Eti."]
+  country: Turkey
+  language: Turkish
+  name: !!python/str "Limitet \u015Eirket"
+- abbreviations: [Local Limited Company]
+  country: Vanuatu
+  language: English
+  name: Local Limited Company
+- abbreviations: [Maatschap]
+  country: Indonesia
+  language: Dutch
+  name: Maatschap
+- abbreviations: [Maatschappij, Mij, Mij.]
+  country: Netherlands
+  language: Dutch
+  name: Maatschappij
+- abbreviations: [Mas'uliyati Cheklangan Jamiyat, MChJ, M.Ch.J, M.Ch.J.]
+  country: Uzbekistan
+  language: Uzbek
+  name: Mas'uliyati Cheklangan Jamiyat
+- abbreviations: [!!python/str "Mittetulundus\xFChing", !!python/str "MT\xDC", !!python/str "M.T.\xDC",
+    !!python/str "M.T.\xDC."]
+  country: Estonia
+  language: Estonian
+  name: !!python/str "Mittetulundus\xFChing"
+- abbreviations: [Mixed Liability Partnership]
+  country: Kuwait
+  language: English
+  name: Mixed Liability Partnership
+- abbreviations: [Monoprosopi Eteria Periorismenis Euthinis, MEPE, M.E.P.E, M.E.P.E.]
+  country: Greece
+  language: Esperabto
+  name: Monoprosopi Eteria Periorismenis Euthinis
+- abbreviations: [Municipale]
+  country: Italy
+  language: Italian
+  name: Municipale
+- abbreviations: [Municipale Assicurazioni]
+  country: Italy
+  language: Italian
+  name: Municipale Assicurazioni
+- abbreviations: [Mutual Funds]
+  country: Belize
+  language: English
+  name: Mutual Funds
+- abbreviations: [Mutual Insurance Company]
+  country: Barbados
+  language: English
+  name: Mutual Insurance Company
+- abbreviations: [Naamloze Vennootschap, NV, N.V, N.V.]
+  country: Global
+  language: Dutch
+  name: Naamloze Vennootschap
+- abbreviations: [National Association, N.A, N.A.]
+  country: Global
+  language: English
+  name: National Association
+- abbreviations: [National Holding Company, NHC, N.H.C, N.H.C.]
+  country: Vietnam
+  language: English
+  name: National Holding Company
+- abbreviations: [Nekommercheskaya Organizatsiya]
+  country: Russia
+  language: Uzbek
+  name: Nekommercheskaya Organizatsiya
+- abbreviations: [Netherlands Antilles Besloten Vennootschap, NABV, N.A.B.V, N.A.B.V.]
+  country: Bonaire
+  language: Dutch
+  name: Netherlands Antilles Besloten Vennootschap
+- abbreviations: [No Liability, NL, N.L, N.L.]
+  country: Global
+  language: English
+  name: No Liability
+- abbreviations: [Non-Resident Company]
+  country: Ireland
+  language: English
+  name: Non Resident Company
+- abbreviations: [Norskregistrert Utenlandsk Foretak, NUF, N.U.F, N.U.F.]
+  country: Norway
+  language: Norwegian
+  name: Norskregistrert Utenlandsk Foretak
+- abbreviations: [!!python/str "Nyilv\xE1nosan M\u0171k\xF6d\u0151 R\xE9szv\xE9nyt\xE1\
+      rsas\xE1g", Nyrt, Nyrt.]
+  country: Hungary
+  language: Hungarian
+  name: !!python/str "Nyilv\xE1nosan M\u0171k\xF6d\u0151 R\xE9szv\xE9nyt\xE1rsas\xE1\
+    g"
+- abbreviations: [Obshchestvo S Ogranichennoy Otvetstvennostyu, OOO, O.O.O, O.O.O.]
+  country: Russia
+  language: Uzbek
+  name: Obshchestvo S Ogranichennoy Otvetstvennostyu
+- abbreviations: [Offene Erwerbsgesellschaft, OEG, O.E.G, O.E.G.]
+  country: Austria
+  language: German
+  name: Offene Erwerbsgesellschaft
+- abbreviations: [Offene Gesellschaft, OG, O.G, O.G.]
+  country: Austria
+  language: German
+  name: Offene Gesellschaft
+- abbreviations: [Offene Handelgesellschaft, OHG, O.H.G, O.H.G.]
+  country: Global
+  language: German
+  name: Offene Handelgesellschaft
+- abbreviations: [Offshore Bank]
+  country: Global
+  language: English
+  name: Offshore Bank
+- abbreviations: [Offshore Company]
+  country: Global
+  language: English
+  name: Offshore Company
+- abbreviations: [Omorithmi Biomixaniki Emporiki Eteria, OBEE, O.B.E.E, O.B.E.E.]
+  country: Greece
+  language: Esperabto
+  name: Omorithmi Biomixaniki Emporiki Eteria
+- abbreviations: [Omorithmi Etairia, OE, O.E, O.E.]
+  country: Greece
+  language: Maori
+  name: Omorithmi Etairia
+- abbreviations: [Openbare Vennootschap Zonder Rechtspersoonlijkheid, OV, O.V, O.V.]
+  country: Netherlands
+  language: Dutch
+  name: Openbare Vennootschap Zonder Rechtspersoonlijkheid
+- abbreviations: [!!python/str "Opinbert Hlutaf\xE9lag", Ohf, Ohf.]
+  country: Iceland
+  language: Icelandic
+  name: !!python/str "Opinbert Hlutaf\xE9lag"
+- abbreviations: [!!python/str "\xD6ppet Bolag"]
+  country: Finland
+  language: Swedish
+  name: !!python/str "\xD6ppet Bolag"
+- abbreviations: [O.P.S, O.P.S.]
+  country: Czech Republic
+  language: ''
+  name: OPS
+- abbreviations: [Ordinary Company]
+  country: Anguilla
+  language: English
+  name: Ordinary Company
+- abbreviations: [Ordinary Non-Resident Company]
+  country: Global
+  language: English
+  name: Ordinary Non Resident Company
+- abbreviations: [Ordinary Resident Company]
+  country: Global
+  language: English
+  name: Ordinary Resident Company
+- abbreviations: [!!python/str "Orta\u010Dko Dru\u0161tvo", OD, O.D, O.D.]
+  country: Serbia
+  language: Slovenian
+  name: !!python/str "Orta\u010Dko Dru\u0161tvo"
+- abbreviations: [O.S, O.S.]
+  country: Czech Republic
+  language: ''
+  name: OS
+- abbreviations: [!!python/str "Osakeyhti\xF6", OY, O.Y, O.Y.]
+  country: Finland
+  language: Finnish
+  name: !!python/str "Osakeyhti\xF6"
+- abbreviations: [!!python/str "Osa\xFChing", !!python/str "O\xDC", !!python/str "O.\xDC",
+    !!python/str "O.\xDC."]
+  country: Estonia
+  language: Estonian
+  name: !!python/str "Osa\xFChing"
+- abbreviations: [!!python/str "Osoba Fizyczna Prowadzaca Dzia\u0142alno\u015B\u0107\
+      \ Gospodarcza"]
+  country: Poland
+  language: Polish
+  name: !!python/str "Osoba Fizyczna Prowadzaca Dzia\u0142alno\u015B\u0107 Gospodarcza"
+- abbreviations: [Osuuskunta, OK, O.K, O.K.]
+  country: Finland
+  language: Finnish
+  name: Osuuskunta
+- abbreviations: [Otkrytoye Aktsionernoye Obshchestvo, OAO, O.A.O, O.A.O.]
+  country: Russia
+  language: Uzbek
+  name: Otkrytoye Aktsionernoye Obshchestvo
+- abbreviations: [Overseas Company]
+  country: Vanuatu
+  language: English
+  name: Overseas Company
+- abbreviations: [Partenreederei]
+  country: Germany
+  language: German
+  name: Partenreederei
+- abbreviations: [Partnerschaftsgesellschaft, PartG, PartG.]
+  country: Germany
+  language: German
+  name: Partnerschaftsgesellschaft
+- abbreviations: [Partnership]
+  country: Global
+  language: English
+  name: Partnership
+- abbreviations: [Partnership Company]
+  country: Laos
+  language: English
+  name: Partnership Company
+- abbreviations: [Partnership In Commendum]
+  country: Qatar
+  language: English
+  name: Partnership In Commendum
+- abbreviations: [Partnerships Limited By Shares]
+  country: Bahrain
+  language: English
+  name: Partnerships Limited By Shares
+- abbreviations: [PC. Ltd, PC. Ltd., P/L, P / L]
+  country: Australia
+  language: English
+  name: PC Ltd
+- abbreviations: [Penanaman Modal Dalam Negeri, PMDN, P.M.D.N, P.M.D.N.]
+  country: Indonesia
+  language: Indonesian
+  name: Penanaman Modal Dalam Negeri
+- abbreviations: [Penenaman Modal Asing, PMA, P.M.A, P.M.A.]
+  country: Indonesia
+  language: Indonesian
+  name: Penenaman Modal Asing
+- abbreviations: [Persekutuan Komanditer, PK, P.K, P.K.]
+  country: Indonesia
+  language: Indonesian
+  name: Persekutuan Komanditer
+- abbreviations: [Persekutuan Pedata]
+  country: Indonesia
+  language: Indonesian
+  name: Persekutuan Pedata
+- abbreviations: [Perseroan Terbatas, PT Tbk, P.T Tbk, P.T. Tbk, PT Tbk., P.T Tbk.,
+    P.T. Tbk.]
+  country: Indonesia
+  language: Indonesian
+  name: Perseroan Terbatas
+- abbreviations: [Perseroan Terbatas Terbuka, P.T. Tbk., PT Tbk]
+  country: Indonesia
+  language: Indonesian
+  name: Perseroan Terbatas Terbuka
+- abbreviations: [Perseroan Terbuka, PT, P.T, P.T.]
+  country: Indonesia
+  language: Indonesian
+  name: Perseroan Terbuka
+- abbreviations: [Personenvennootschap Met Beperkte Aansprakelijkheid, PVBA, P.V.B.A,
+    P.V.B.A.]
+  country: Belgium
+  language: Dutch
+  name: Personenvennootschap Met Beperkte Aansprakelijkheid
+- abbreviations: [Perusahaan Jawatan, PerJan, Per.Jan, Per.Jan.]
+  country: Indonesia
+  language: Indonesian
+  name: Perusahaan Jawatan
+- abbreviations: [Perusahaan Umum, PerUm, Per.Um, Per.Um.]
+  country: Indonesia
+  language: Indonesian
+  name: Perusahaan Umum
+- abbreviations: [P.H.U.P, P.H.U.P.]
+  country: Poland
+  language: ''
+  name: PHUP
+- abbreviations: [!!python/str "Pilnsabiedr\u012Bba", PS, P.S, P.S.]
+  country: Latvia
+  language: Latvian
+  name: !!python/str "Pilnsabiedr\u012Bba"
+- abbreviations: [Povne Tovarystvo, PT]
+  country: Ukraine
+  language: Slovak
+  name: Povne Tovarystvo
+- abbreviations: [P.P.H, P.P.H.]
+  country: Poland
+  language: ''
+  name: PPH
+- abbreviations: [P.P.H.U, P.P.H.U.]
+  country: Poland
+  language: ''
+  name: PPHU
+- abbreviations: [Predstavnytstvo]
+  country: Ukraine
+  language: Slovak
+  name: Predstavnytstvo
+- abbreviations: [Privaat Maatskappy]
+  country: South Africa
+  language: Afrikaans
+  name: Privaat Maatskappy
+- abbreviations: [Private Company]
+  country: Global
+  language: English
+  name: Private Company
+- abbreviations: [Private Company Limited By Shares, Prp Ltd, Prp. Ltd, Prp. Ltd.]
+  country: Botswana
+  language: English
+  name: Private Company Limited By Shares
+- abbreviations: [Private Limited, Pte Ltd, Pte. Ltd, Pte. Ltd.]
+  country: Singapore
+  language: English
+  name: Private Limited
+- abbreviations: [Private Limited Company, Pvt Ltd, Pvt. Ltd, Pvt. Ltd., Pvt Ltd Co,
+    Pvt. Ltd. Co, Pvt. Ltd. Co.]
+  country: Global
+  language: English
+  name: Private Limited Company
+- abbreviations: [Private (Unlimited Liability) Company]
+  country: China
+  language: English
+  name: Private Unlimited Liability Company
+- abbreviations: [Production Cooperative]
+  country: Moldova
+  language: English
+  name: Production Co Operative
+- abbreviations: [Professional Corporation, PC, P.C, P.C.]
+  country: Global
+  language: English
+  name: Professional Corporation
+- abbreviations: [Professional Limited Liability Company, PLLC, P.L.L.C, P.L.L.C.]
+  country: Global
+  language: English
+  name: Professional Limited Liability Company
+- abbreviations: [Professional Limited Liability Partnership, PLLP, P.L.L.P, P.L.L.P.]
+  country: Global
+  language: English
+  name: Professional Limited Liability Partnership
+- abbreviations: [Proprietary Limited, Pty Ltd, Pty. Ltd, Pty. Ltd.]
+  country: South Africa
+  language: English
+  name: Proprietary Limited
+- abbreviations: [Proprietary Limited Company, Proprietary, Pty Ltd Co, Pty. Ltd.
+      Co, Pty. Ltd. Co.]
+  country: Australia
+  language: English
+  name: Proprietary Limited Company
+- abbreviations: [Proprietorship]
+  country: Benin
+  language: English
+  name: Proprietorship
+- abbreviations: [Protected Cell Company]
+  country: Belize
+  language: English
+  name: Protected Cell Company
+- abbreviations: [!!python/str "Przedsi\u0119biorstwo Pa\u0144stwowe", PP, P.P, P.P.]
+  country: Poland
+  language: Polish
+  name: !!python/str "Przedsi\u0119biorstwo Pa\u0144stwowe"
+- abbreviations: [Public Company]
+  country: Global
+  language: English
+  name: Public Company
+- abbreviations: [Public Company Limited, PCL, P.C.L, P.C.L.]
+  country: Thailand
+  language: English
+  name: Public Company Limited
+- abbreviations: [Public Company Limited By Shares, PrC]
+  country: Global
+  language: English
+  name: Public Company Limited By Shares
+- abbreviations: [Public Corporation]
+  country: Ireland
+  language: English
+  name: Public Corporation
+- abbreviations: [Public Investment Company]
+  country: Belize
+  language: English
+  name: Public Investment Company
+- abbreviations: [Public Joint Stock Company, PJSC, P.J.S.C, P.J.S.C.]
+  country: United Arab Emirates
+  language: English
+  name: Public Joint Stock Company
+- abbreviations: [Public Limited Company, PLC, P.L.C, P.L.C., PMC, P.M.C, P.M.C.,
+    SA/NV, SA / NV]
+  country: Global
+  language: English
+  name: Public Limited Company
+- abbreviations: [Public (limited Liability) Company]
+  country: Benin
+  language: English
+  name: Public Limited Liability Company
+- abbreviations: [Public Sector Enterprise, PSE, P.S.E, P.S.E.]
+  country: India
+  language: English
+  name: Public Sector Enterprise
+- abbreviations: [Public Sector Unit, PSU, P.S.U, P.S.U.]
+  country: India
+  language: English
+  name: Public Sector Unit
+- abbreviations: [Public Share Holding Company, PSC, P.S.C, P.S.C.]
+  country: Qatar
+  language: English
+  name: Public Shareholding Company
+- abbreviations: [Public Stock Company, PSC, P.S.C, P.S.C.]
+  country: United Arab Emirates
+  language: English
+  name: Public Stock Company
+- abbreviations: [Public Unlimited Company]
+  country: Ireland
+  language: English
+  name: Public Unlimited Company
+- abbreviations: [Publieke Maatskappy]
+  country: South Africa
+  language: Afrikaans
+  name: Publieke Maatskappy
+- abbreviations: [Publikt Aktiebolag, AB, AB (Publ), AB Publ, AB Publ., APB, A.P.B,
+    A.P.B.]
+  country: Sweden
+  language: Swedish
+  name: Publikt Aktiebolag
+- abbreviations: [Raison De Commerce]
+  country: Switzerland
+  language: French
+  name: Raison De Commerce
+- abbreviations: [Real Estate Company]
+  country: Lebanon
+  language: English
+  name: Real Estate Company
+- abbreviations: [!!python/str "Regie Autonom\u0103", RA, R.A, R.A.]
+  country: Romania
+  language: Romanian
+  name: !!python/str "Regie Autonom\u0103"
+- abbreviations: [Regionalt Helseforetak, RHF, R.H.F, R.H.F.]
+  country: Norway
+  language: Norwegian
+  name: Regionalt Helseforetak
+- abbreviations: [!!python/str "Rekister\xF6ity Yhdistys", RY, R.Y, R.Y.]
+  country: Finland
+  language: Finnish
+  name: !!python/str "Rekister\xF6ity Yhdistys"
+- abbreviations: [Representative Office]
+  country: Global
+  language: English
+  name: Representative Office
+- abbreviations: [!!python/str "R\xE9szv\xE9nyt\xE1rsas\xE1g", RT, R.T, R.T.]
+  country: Hungary
+  language: Hungarian
+  name: !!python/str "R\xE9szv\xE9nyt\xE1rsas\xE1g"
+- abbreviations: [Riiklik Aktsiaselts, RAS, R.A.S, R.A.S.]
+  country: Estonia
+  language: Estonian
+  name: Riiklik Aktsiaselts
+- abbreviations: [!!python/str "S Potpunom Odgovorno\u0161\u0107u", SPO, S.P.O, S.P.O.]
+  country: Croatia
+  language: Bosnian
+  name: !!python/str "S Potpunom Odgovorno\u0161\u0107u"
+- abbreviations: [S.A.A, S.A.A.]
+  country: Peru
+  language: ''
+  name: SAA
+- abbreviations: [!!python/str "S\xE4\xE4ti\xF6"]
+  country: Finland
+  language: Finnish
+  name: !!python/str "S\xE4\xE4ti\xF6"
+- abbreviations: [!!python/str "Sabiedr\u012Bba Ar Ierobe\u017Eotu Atbild\u012Bbu",
+    SIA, S.I.A, S.I.A.]
+  country: Latvia
+  language: Latvian
+  name: !!python/str "Sabiedr\u012Bba Ar Ierobe\u017Eotu Atbild\u012Bbu"
+- abbreviations: [S.A.C, S.A.C.]
+  country: Peru
+  language: ''
+  name: SAC
+- abbreviations: [!!python/str "Sameignarf\xE9lag", SF, S.F, S.F.]
+  country: Iceland
+  language: Icelandic
+  name: !!python/str "Sameignarf\xE9lag"
+- abbreviations: [Samenwerkende Vennootschap, SV, S.V, S.V.]
+  country: Belgium
+  language: Dutch
+  name: Samenwerkende Vennootschap
+- abbreviations: [!!python/str "Samlagsf\xE9lag"]
+  country: Iceland
+  language: Icelandic
+  name: !!python/str "Samlagsf\xE9lag"
+- abbreviations: [Samostojni Podjetnik, SP, S.P, S.P.]
+  country: Slovenia
+  language: Slovenian
+  name: Samostojni Podjetnik
+- abbreviations: [!!python/str "Samvinnuf\xE9lag & Samlagsfelag", SVF & Samlagsfelag,
+    SVF&Samlagsfelag]
+  country: Iceland
+  language: Icelandic
+  name: !!python/str "Samvinnuf\xE9lag & Samlagsfelag"
+- abbreviations: [!!python/str "Scssoci\xE9t\xE9 En Commandite", SCS, S.C.S, S.C.S.]
+  country: Belgium
+  language: French
+  name: !!python/str "Scssoci\xE9t\xE9 En Commandite"
+- abbreviations: [Section 21 Company]
+  country: South Africa
+  language: English
+  name: Section 21 Company
+- abbreviations: [Selskap Med Begrenset Ansvar, BA, B.A, B.A.]
+  country: Norway
+  language: Norwegian
+  name: Selskap Med Begrenset Ansvar
+- abbreviations: [Selskap Med Delt Ansar, DA, D.A, D.A.]
+  country: Norway
+  language: Norwegian
+  name: Selskap Med Delt Ansar
+- abbreviations: [Private Company (sendirian Berhad), Sdn Bhd, Sdn. Bhd, Sdn. Bhd.]
+  country: Malaysia
+  language: Malay
+  name: Sendirian Berhad
+- abbreviations: [Sendirian Berhad]
+  country: Brunei Darussalam
+  language: Malay
+  name: Sendirian Berhad
+- abbreviations: [Sgrpa]
+  country: Italy
+  language: ''
+  name: Sgrpa
+- abbreviations: [!!python/str "Shakai-Fukushi-H\u014Djin"]
+  country: Japan
+  language: Swahili
+  name: !!python/str "Shakai Fukushi H\u014Djin"
+- abbreviations: [Share Company, SC, S.C, S.C.]
+  country: Ethiopia
+  language: English
+  name: Share Company
+- abbreviations: [Shareholder Cooperative]
+  country: China
+  language: English
+  name: Shareholder Co Operative
+- abbreviations: [Sharikat Al-Mossahamah, SAE, S.A.E, S.A.E.]
+  country: Egypt
+  language: Malay
+  name: Sharikat Al Mossahamah
+- abbreviations: [Sharikat Tadamun]
+  country: Egypt
+  language: Malay
+  name: Sharikat Tadamun
+- abbreviations: [Sharikat Tawssiyah Bassita]
+  country: Egypt
+  language: Malay
+  name: Sharikat Tawssiyah Bassita
+- abbreviations: [Sharikat Tawssiyah Belashom]
+  country: Egypt
+  language: Malay
+  name: Sharikat Tawssiyah Belashom
+- abbreviations: [Sherkat]
+  country: Iran
+  language: Iranian
+  name: Sherkat
+- abbreviations: [Sherkat Ba Masouliyat Mahdoud]
+  country: Iran
+  language: Iranian
+  name: Sherkat Ba Masouliyat Mahdoud
+- abbreviations: [Sherkat Mokhtalet Gheyr Sahami]
+  country: Iran
+  language: Iranian
+  name: Sherkat Mokhtalet Gheyr Sahami
+- abbreviations: [Sherkat Mokhtalet Sahami]
+  country: Iran
+  language: Iranian
+  name: Sherkat Mokhtalet Sahami
+- abbreviations: [Sherkat Nesbi]
+  country: Iran
+  language: Iranian
+  name: Sherkat Nesbi
+- abbreviations: [Sherkat Sahami Am]
+  country: Iran
+  language: Iranian
+  name: Sherkat Sahami Am
+- abbreviations: [Sherkat Sahami Khas]
+  country: Iran
+  language: Iranian
+  name: Sherkat Sahami Khas
+- abbreviations: [!!python/str "Sherkat Ta\u2019avoni Tolid Va Masraf"]
+  country: Iran
+  language: Iranian
+  name: !!python/str "Sherkat Ta\u2019avoni Tolid Va Masraf"
+- abbreviations: [Sherkat Tazamoni]
+  country: Iran
+  language: Iranian
+  name: Sherkat Tazamoni
+- abbreviations: [!!python/str "Shin'y\u014D-Kinko"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Shin'y\u014D Kinko"
+- abbreviations: [!!python/str "Shin'y\u014D-Kumiai"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Shin'y\u014D Kumiai"
+- abbreviations: [Shipping Management Company]
+  country: Barbados
+  language: English
+  name: Shipping Management Company
+- abbreviations: [!!python/str "Sh\u016Bky\u014D-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Sh\u016Bky\u014D H\u014Djin"
+- abbreviations: [SME. Pvt, Ltd, Ltd.]
+  country: Pakistan
+  language: ''
+  name: SME Pvt
+- abbreviations: [!!python/str "Sociedad An\xF3nima", SA, S.A, S.A.]
+  country: Global
+  language: Spanish
+  name: !!python/str "Sociedad An\xF3nima"
+- abbreviations: [!!python/str "Sociedad An\xF3nima Burs\xE1til", SAB, S.A.B, S.A.B.]
+  country: Mexico
+  language: Spanish
+  name: !!python/str "Sociedad An\xF3nima Burs\xE1til"
+- abbreviations: [!!python/str "Sociedad An\xF3nima De Capital Variable", SA de CV,
+    SA de C.V, SA de C.V., S.A de CV, S.A de C.V, S.A de C.V., S.A. de C.V, S.A. de
+      C.V.]
+  country: Mexico
+  language: Spanish
+  name: !!python/str "Sociedad An\xF3nima De Capital Variable"
+- abbreviations: [!!python/str "Sociedad An\xF3nima Espa\xF1ola", SAE, S.A.E, S.A.E.]
+  country: Spain
+  language: Spanish
+  name: !!python/str "Sociedad An\xF3nima Espa\xF1ola"
+- abbreviations: [!!python/str "Sociedad An\xF3nima Financiera De Inversi\xF3n", SAFI,
+    S.A.F.I, S.A.F.I.]
+  country: Uruguay
+  language: Spanish
+  name: !!python/str "Sociedad An\xF3nima Financiera De Inversi\xF3n"
+- abbreviations: [!!python/str "Sociedad An\xF3nima Inscrita De Capital Abierto",
+    SAICA, S.A.I.C.A, S.A.I.C.A.]
+  country: Venezuela
+  language: Spanish
+  name: !!python/str "Sociedad An\xF3nima Inscrita De Capital Abierto"
+- abbreviations: [!!python/str "Sociedad An\xF3nima Laboral", SAL, S.A.L, S.A.L.]
+  country: Spain
+  language: Spanish
+  name: !!python/str "Sociedad An\xF3nima Laboral"
+- abbreviations: [!!python/str "Sociedad An\xF3nima Promotora De Inversion", SAPI,
+    S.A.P.I, S.A.P.I.]
+  country: Mexico
+  language: Spanish
+  name: !!python/str "Sociedad An\xF3nima Promotora De Inversion"
+- abbreviations: [Sociedad Civil]
+  country: Spain
+  language: Spanish
+  name: Sociedad Civil
+- abbreviations: [Sociedad Cooperative Limitada, SCL, S.C.L, S.C.L.]
+  country: Spain
+  language: Spanish
+  name: Sociedad Co Operative Limitada
+- abbreviations: [Sociedad Colectiva, SNC, S.N.C, S.N.C.]
+  country: Spain
+  language: Spanish
+  name: Sociedad Colectiva
+- abbreviations: [Sociedad Comanditaria, SC, S.C, S.C.]
+  country: Spain
+  language: Spanish
+  name: Sociedad Comanditaria
+- abbreviations: [Sociedad Cooperativa, SCoop, S.Coop, S.Coop.]
+  country: Spain
+  language: Spanish
+  name: Sociedad Cooperativa
+- abbreviations: [Sociedad De Cartera]
+  country: Spain
+  language: Spanish
+  name: Sociedad De Cartera
+- abbreviations: [Sociedad De Produccion Rural De Responsabilidad Limitada, SPR de
+      RL, S.P.R de R.L, S.P.R. de R.L.]
+  country: Mexico
+  language: Spanish
+  name: Sociedad De Produccion Rural De Responsabilidad Limitada
+- abbreviations: [Sociedad De Produccion Rural De Responsabilidad Limitada De Capital
+      Variable, SPR de RL de CV, S.P.R de R.L de C.V, S.P.R. de R.L. de C.V.]
+  country: Mexico
+  language: Spanish
+  name: Sociedad De Produccion Rural De Responsabilidad Limitada De Capital Variable
+- abbreviations: [Sociedad De Responsabilidad Limitada, S de RL, S de R.L, S. de R.L.]
+  country: Mexico
+  language: Spanish
+  name: Sociedad De Responsabilidad Limitada
+- abbreviations: [Sociedad De Responsabilidad Limitada, SRL, S.R.L, S.R.L.]
+  country: Argentina
+  language: Spanish
+  name: Sociedad De Responsabilidad Limitada
+- abbreviations: [!!python/str "Societ\xE0 Individuale"]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Individuale"
+- abbreviations: [Sociedad De Responsabilidad Limitada De Capital Variable, S de RL
+      de CV, S de R.L de C.V, S. de R.L. de C.V.]
+  country: Mexico
+  language: Spanish
+  name: Sociedad De Responsabilidad Limitada De Capital Variable
+- abbreviations: [Sociedad De Responsabilidad Limitada De Microindustrial, SRL de
+      MI, S.R.L de M.I, S.R.L. de MI]
+  country: Mexico
+  language: Spanish
+  name: Sociedad De Responsabilidad Limitada De Microindustrial
+- abbreviations: [Sociedad Del Estado, SE, S.E, S.E.]
+  country: Argentina
+  language: Spanish
+  name: Sociedad Del Estado
+- abbreviations: [Sociedad En Comandita, S en C, S. en C.]
+  country: Global
+  language: Spanish
+  name: Sociedad En Comandita
+- abbreviations: [Sociedad En Comandita Por Acciones, S en C por A, S. en C. por A.]
+  country: Mexico
+  language: Spanish
+  name: Sociedad En Comandita Por Acciones
+- abbreviations: [Sociedad En Comandita Simple, SCS, S.C.S, S.C.S.]
+  country: Mexico
+  language: Spanish
+  name: Sociedad En Comandita Simple
+- abbreviations: [Sociedad En Nombre Colectivo, SNC, S.N.C, S.N.C.]
+  country: Mexico
+  language: Spanish
+  name: Sociedad En Nombre Colectivo
+- abbreviations: [!!python/str "Sociedad Gestora De Instituciones De Inversi\xF3n\
+      \ Colectiva", SGIIC, S.G.I.I.C, S.G.I.I.C.]
+  country: Spain
+  language: Spanish
+  name: !!python/str "Sociedad Gestora De Instituciones De Inversi\xF3n Colectiva"
+- abbreviations: [!!python/str "Sociedad Gestora De Participa\xE7\xF5es Socialis",
+    SGPS, S.G.P.S, S.G.P.S.]
+  country: Portugal
+  language: Spanish
+  name: !!python/str "Sociedad Gestora De Participa\xE7\xF5es Socialis"
+- abbreviations: [Sociedad Limitada, SL, S.L, S.L.]
+  country: Spain
+  language: Spanish
+  name: Sociedad Limitada
+- abbreviations: [Sociedad Limitada Laboral, SLL, S.L.L, S.L.L.]
+  country: Spain
+  language: Spanish
+  name: Sociedad Limitada Laboral
+- abbreviations: [Sociedad Limitada Nueva Empresa, SLNE, S.L.N.E, S.L.N.E.]
+  country: Spain
+  language: Spanish
+  name: Sociedad Limitada Nueva Empresa
+- abbreviations: [Sociedad Limitada Unipersonal, SLU, S.L.U, S.L.U.]
+  country: Spain
+  language: Spanish
+  name: Sociedad Limitada Unipersonal
+- abbreviations: [Sociedad Por Acciones, SPA, S.P.A, S.P.A.]
+  country: Chile
+  language: Spanish
+  name: Sociedad Por Acciones
+- abbreviations: [Sociedad Regular Colectiva, SRL, S.R.L, S.R.L.]
+  country: Spain
+  language: Spanish
+  name: Sociedad Regular Colectiva
+- abbreviations: [Sociedad Responsabilidad Limitada, SRL, S.R.L, S.R.L.]
+  country: Uruguay
+  language: Spanish
+  name: Sociedad Responsabilidad Limitada
+- abbreviations: [Sociedade Anonima, SARL, S.A.R.L, S.A.R.L., S/A, S / A]
+  country: Angola
+  language: Spanish
+  name: Sociedade Anonima
+- abbreviations: [!!python/str "Sociedade An\xF5nima Orsociedade Aberta", SA, S.A,
+    S.A.]
+  country: Portugal
+  language: Spanish
+  name: !!python/str "Sociedade An\xF5nima Orsociedade Aberta"
+- abbreviations: [Sociedade Em Comandita Simples, SCS, S.C.S, S.C.S.]
+  country: Brazil
+  language: Spanish
+  name: Sociedade Em Comandita Simples
+- abbreviations: [!!python/str "Sociedade Em Conta De Participac\xE3o", SCP, S.C.P,
+    S.C.P.]
+  country: Brazil
+  language: Spanish
+  name: !!python/str "Sociedade Em Conta De Participac\xE3o"
+- abbreviations: [Sociedade Em Nome Coletivo]
+  country: Brazil
+  language: Spanish
+  name: Sociedade Em Nome Coletivo
+- abbreviations: [Sociedade Fechada, SF, S.F, S.F.]
+  country: Portugal
+  language: Spanish
+  name: Sociedade Fechada
+- abbreviations: [!!python/str "Sociedade Por A\xE7\xF5es", SA, S.A, S.A.]
+  country: Brazil
+  language: Spanish
+  name: !!python/str "Sociedade Por A\xE7\xF5es"
+- abbreviations: [Sociedade Por Quotas, Lda, Lda.]
+  country: Portugal
+  language: Spanish
+  name: Sociedade Por Quotas
+- abbreviations: [Sociedade Por Quotas De Responsabilidade Limitada]
+  country: Brazil
+  language: Spanish
+  name: Sociedade Por Quotas De Responsabilidade Limitada
+- abbreviations: [!!python/str "Sociedades An\xF3nimas De Capital Autorizado", SACA,
+    S.A.C.A, S.A.C.A.]
+  country: Venezuela
+  language: Spanish
+  name: !!python/str "Sociedades An\xF3nimas De Capital Autorizado"
+- abbreviations: [!!python/str "Sociedades An\xF3nimas Simplificadas", SAS, S.A.S,
+    S.A.S.]
+  country: Colombia
+  language: Spanish
+  name: !!python/str "Sociedades An\xF3nimas Simplificadas"
+- abbreviations: [Sociedades En Comandita, S en C, S. en C.]
+  country: Costa Rica
+  language: Spanish
+  name: Sociedades En Comandita
+- abbreviations: [!!python/str "Societ\xE0"]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0"
+- abbreviations: [!!python/str "Societ\xE0 A Garanzia Limitata", SAGL, S.A.G.L, S.A.G.L.]
+  country: Switzerland
+  language: Italian
+  name: !!python/str "Societ\xE0 A Garanzia Limitata"
+- abbreviations: [!!python/str "Societ\xE0 A Responsabilit\xE0 Limitata", SRL, S.R.L,
+    S.R.L.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 A Responsabilit\xE0 Limitata"
+- abbreviations: [!!python/str "Societ\xE0 Agricola"]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Agricola"
+- abbreviations: [!!python/str "Societ\xE0 Anonima", SA, S.A, S.A.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Anonima"
+- abbreviations: [!!python/str "Societ\xE0 Consortile"]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Consortile"
+- abbreviations: [!!python/str "Societ\xE0 Consortile Per Azioni", SCPA, S.C.P.A,
+    S.C.P.A.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Consortile Per Azioni"
+- abbreviations: [!!python/str "Societ\xE0 Consortili A Responsabilit\xE0 Limitata",
+    SCARL, S.C.A.R.L, S.C.A.R.L.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Consortili A Responsabilit\xE0 Limitata"
+- abbreviations: [!!python/str "Societ\xE0 Cooperativa"]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Cooperativa"
+- abbreviations: [!!python/str "Societ\xE0 Cooperativa A Responsabilit\xE0 Limitata",
+    SCRL, S.C.R.L, S.C.R.L.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Cooperativa A Responsabilit\xE0 Limitata"
+- abbreviations: [!!python/str "Societ\xE0 Di Fatto"]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Di Fatto"
+- abbreviations: [!!python/str "Societ\xE0 Di Gestione Del Risparmio", SGR, S.G.R,
+    S.G.R.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Di Gestione Del Risparmio"
+- abbreviations: [!!python/str "Societ\xE0 Estera"]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Estera"
+- abbreviations: [!!python/str "Societ\xE0 In Accomandita Per Azioni", SAPA, S.A.P.A,
+    S.A.P.A.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 In Accomandita Per Azioni"
+- abbreviations: [!!python/str "Societ\xE0 In Accomandita Semplice", SAS, S.A.S, S.A.S.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 In Accomandita Semplice"
+- abbreviations: [!!python/str "Societ\xE0 In Nome Collettivo", SNC, S.N.C, S.N.C.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 In Nome Collettivo"
+- abbreviations: [!!python/str "Societ\xE0 Per Azioni", SPA, S.P.A, S.P.A.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Per Azioni"
+- abbreviations: [!!python/str "Societ\xE0 Semplice", SS, S.S, S.S.]
+  country: Italy
+  language: Italian
+  name: !!python/str "Societ\xE0 Semplice"
+- abbreviations: [Societat Colectiva]
+  country: Andorra
+  language: Catalan
+  name: Societat Colectiva
+- abbreviations: [Societat De Responsabilitat Limitada]
+  country: Andorra
+  language: Catalan
+  name: Societat De Responsabilitat Limitada
+- abbreviations: [Societat Per Accions]
+  country: Andorra
+  language: Catalan
+  name: Societat Per Accions
+- abbreviations: [!!python/str "Societate Cu R\u0103spondere Limitat\u0103", SRL,
+    S.R.L, S.R.L.]
+  country: Romania
+  language: Romanian
+  name: !!python/str "Societate Cu R\u0103spondere Limitat\u0103"
+- abbreviations: [!!python/str "Societate In C\xF2mandita Pe Actiuni", SCA, S.C.A,
+    S.C.A.]
+  country: Romania
+  language: Romanian
+  name: !!python/str "Societate In C\xF2mandita Pe Actiuni"
+- abbreviations: [Societate In Comandita Simpla, SCS, S.C.S, S.C.S.]
+  country: Romania
+  language: Romanian
+  name: Societate In Comandita Simpla
+- abbreviations: [Societate In Nume Colectiv, SNC, S.N.C, S.N.C.]
+  country: Romania
+  language: Romanian
+  name: Societate In Nume Colectiv
+- abbreviations: [!!python/str "Societate Pe Ac\u0163iuni", SA, S.A, S.A.]
+  country: Romania
+  language: Romanian
+  name: !!python/str "Societate Pe Ac\u0163iuni"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 \xC0 Responsabilit\xE9 Limit\xE9e",
+    SARL, S.A.R.L, S.A.R.L.]
+  country: Global
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 \xC0 Responsabilit\xE9 Limit\xE9e"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Anonyme", SA, S.A, S.A.]
+  country: Global
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Anonyme"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Anonyme Libanaise", SAL, S.A.L, S.A.L.]
+  country: Lebanon
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Anonyme Libanaise"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Anonyme Monegasque", SAM, S.A.M, S.A.M.]
+  country: Monaco
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Anonyme Monegasque"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Anonyme Omanaise Close", SAOC, S.A.O.C,
+    S.A.O.C.]
+  country: Oman
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Anonyme Omanaise Close"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Anonyme Omanaise G\xE9n\xE9rale", SOAG,
+    S.O.A.G, S.O.A.G.]
+  country: Oman
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Anonyme Omanaise G\xE9n\xE9rale"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Civile", SC, S.C, S.C.]
+  country: France
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Civile"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Cooperative", SC, S.C, S.C.]
+  country: Global
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Co Operative"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Commerciale Canadienne", SCC, S.C.C,
+    S.C.C.]
+  country: Canada
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Commerciale Canadienne"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Coop\xE9rative", SCOP, S.C.O.P, S.C.O.P.]
+  country: France
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Coop\xE9rative"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Coop\xE9rative \xC0 Responsabilit\xE9\
+      \ Illimit\xE9e", SCRI, S.C.R.I, S.C.R.I.]
+  country: Belgium
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Coop\xE9rative \xC0 Responsabilit\xE9 Illimit\xE9\
+    e"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Coop\xE9rative \xC0 Responsabilit\xE9\
+      \ Limit\xE9e", SCRL, S.C.R.L, S.C.R.L.]
+  country: Belgium
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Coop\xE9rative \xC0 Responsabilit\xE9 Limit\xE9\
+    e"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 D'\xE9conomie Mixte", SEM, S.E.M, S.E.M.]
+  country: France
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 D'\xE9conomie Mixte"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 D'investissement \xC0 Capital Fixe",
+    SICAF, S.I.C.A.F, S.I.C.A.F.]
+  country: France
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 D'investissement \xC0 Capital Fixe"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 D'investissement \xC0 Capital Variable",
+    SICAV, S.I.C.A.V, S.I.C.A.V.]
+  country: France
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 D'investissement \xC0 Capital Variable"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 De Participation Financi\xE8re", SOPARFI,
+    S.O.P.A.R.F.I, S.O.P.A.R.F.I.]
+  country: Luxembourg
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 De Participation Financi\xE8re"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 De Personnes A Responsibilit\xE9 Limit\xE9\
+      e", SPRL, S.P.R.L, S.P.R.L.]
+  country: Belgium
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 De Personnes A Responsibilit\xE9 Limit\xE9e"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 En Commandite", SCS, S.C.S, S.C.S.]
+  country: Luxembourg
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 En Commandite"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 En Commandite Par Actions", SCA, S.C.A,
+    S.C.A.]
+  country: France
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 En Commandite Par Actions"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 En Commandite Simple", SCS, S.C.S, S.C.S.]
+  country: Global
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 En Commandite Simple"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 En Nom Collectif", SNC, S.N.C, S.N.C.,
+    SENC, S.E.N.C, S.E.N.C.]
+  country: Global
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 En Nom Collectif"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 En Participation", SP, S.P, S.P.]
+  country: France
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 En Participation"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Etrang\xE8re"]
+  country: Belgium
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Etrang\xE8re"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Par Actions De R\xE9gime F\xE9d\xE9\
+      ral", SARF, S.A.R.F, S.A.R.F.]
+  country: Canada
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Par Actions De R\xE9gime F\xE9d\xE9ral"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Par Actions Simplifi\xE9e", SAS, S.A.S,
+    S.A.S.]
+  country: France
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Par Actions Simplifi\xE9e"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Par Actions Simplifi\xE9e Unipersonnelle",
+    SASU, S.A.S.U, S.A.S.U.]
+  country: France
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Par Actions Simplifi\xE9e Unipersonnelle"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Priv\xE9e \xC0 Responsabilit\xE9", SPRLU,
+    S.P.R.L.U, S.P.R.L.U.]
+  country: Belgium
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Priv\xE9e \xC0 Responsabilit\xE9"
+- abbreviations: [!!python/str "Soci\xE9t\xE9 Priv\xE9e A Responsibilit\xE9 Limit\xE9\
+      e", SPRL, S.P.R.L, S.P.R.L.]
+  country: Belgium
+  language: French
+  name: !!python/str "Soci\xE9t\xE9 Priv\xE9e A Responsibilit\xE9 Limit\xE9e"
+- abbreviations: [Society With Restricted Liability]
+  country: Barbados
+  language: English
+  name: Society With Restricted Liability
+- abbreviations: [!!python/str "S\u014Dgo-Gaisha"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "S\u014Dgo Gaisha"
+- abbreviations: [Sole Proprietorship]
+  country: Global
+  language: English
+  name: Sole Proprietorship
+- abbreviations: [Sole Trader]
+  country: Namibia
+  language: English
+  name: Sole Trader
+- abbreviations: [S.P.A, S.P.A.]
+  country: Algeria
+  language: ''
+  name: SPA
+- abbreviations: [Special Licence Company]
+  country: Seychelles
+  language: English
+  name: Special Licence Company
+- abbreviations: [!!python/str "Sp\xF3\u0142dzielnia"]
+  country: Poland
+  language: Polish
+  name: !!python/str "Sp\xF3\u0142dzielnia"
+- abbreviations: [!!python/str "Spole\u010Dnost S Ru\u010Den\xEDm Omezen\xFDm", SRO,
+    S.R.O, S.R.O.]
+  country: Czech Republic
+  language: Czech
+  name: !!python/str "Spole\u010Dnost S Ru\u010Den\xEDm Omezen\xFDm"
+- abbreviations: [!!python/str "Sp\xF3\u0142ka Partnerska", SP P, SP. P, SP. P.]
+  country: Poland
+  language: Polish
+  name: !!python/str "Sp\xF3\u0142ka Partnerska"
+- abbreviations: [!!python/str "Sp\xF3\u0142ka Z Ograniczona Odpowiedzialno\u015B\
+      cia", SP Z OO, SP. Z OO, SP. Z OO., S.P. Z O.O., !!python/str "Sp\xF3\u0142\
+      kaz OO", !!python/str "Sp\xF3\u0142kaz O.O."]
+  country: Poland
+  language: Polish
+  name: !!python/str "Sp\xF3\u0142ka Z Ograniczona Odpowiedzialno\u015Bcia"
+- abbreviations: [!!python/str "Sp\xF3\u0142kaakcyjna", SA]
+  country: Poland
+  language: Polish
+  name: !!python/str "Sp\xF3\u0142kaakcyjna"
+- abbreviations: [!!python/str "Sp\xF3\u0142kajawna", SPJ, SP.J, SP.J.]
+  country: Poland
+  language: Polish
+  name: !!python/str "Sp\xF3\u0142kajawna"
+- abbreviations: [!!python/str "Sp\xF3\u0142kakomandytowa", SPK, SP.K, SP.K.]
+  country: Poland
+  language: Polish
+  name: !!python/str "Sp\xF3\u0142kakomandytowa"
+- abbreviations: [!!python/str "Sp\xF3\u0142kakomandytowa-Akcyjna", SKA, SK.A, SK.A.]
+  country: Poland
+  language: Polish
+  name: !!python/str "Sp\xF3\u0142kakomandytowa Akcyjna"
+- abbreviations: [!!python/str "Sp\xF3\u0142kaprawa Cywilnego", SC, S.C, S.C.]
+  country: Poland
+  language: Polish
+  name: !!python/str "Sp\xF3\u0142kaprawa Cywilnego"
+- abbreviations: [!!python/str "Spolo\u010Dnos\u0165 S Ru\u010Den\xEDm Obmedzen\xFD\
+      m", Spol SRO, Spol. SRO, Spol. S.R.O, Spol. S.R.O., SRO, S.R.O, S.R.O.]
+  country: Slovakia
+  language: Slovak
+  name: !!python/str "Spolo\u010Dnos\u0165 S Ru\u010Den\xEDm Obmedzen\xFDm"
+- abbreviations: [Sponsorship]
+  country: Saudi Arabia
+  language: English
+  name: Sponsorship
+- abbreviations: [State And Municipal Enterprise]
+  country: Moldova
+  language: English
+  name: State And Municipal Enterprise
+- abbreviations: [!!python/str "Statens Aff\xE4rsverk"]
+  country: Finland
+  language: Swedish
+  name: !!python/str "Statens Aff\xE4rsverk"
+- abbreviations: [Statsforetak, SF, S.F, S.F.]
+  country: Norway
+  language: Danish
+  name: Statsforetak
+- abbreviations: [Stichting]
+  country: Global
+  language: Dutch
+  name: Stichting
+- abbreviations: [Stiftelse]
+  country: Finland
+  language: Swedish
+  name: Stiftelse
+- abbreviations: [Stiftung]
+  country: Germany
+  language: German
+  name: Stiftung
+- abbreviations: [Stille Gesellschaft, St Ges, St. Ges, St. Ges.]
+  country: Austria
+  language: German
+  name: Stille Gesellschaft
+- abbreviations: [Stock Company]
+  country: Bolivia
+  language: English
+  name: Stock Company
+- abbreviations: [Stock Corporation]
+  country: Guatemala
+  language: English
+  name: Stock Corporation
+- abbreviations: [Stock Limited Company]
+  country: China
+  language: English
+  name: Stock Limited Company
+- abbreviations: [Subiratelno Druzhestvo, SD, S.D, S.D.]
+  country: Bulgaria
+  language: ''
+  name: Subiratelno Druzhestvo
+- abbreviations: [Suc. De Descendants]
+  country: Colombia
+  language: ''
+  name: Suc De Descendants
+- abbreviations: [Sucursal]
+  country: Costa Rica
+  language: Spanish
+  name: Sucursal
+- abbreviations: [Supplementary Liability Company]
+  country: Armenia
+  language: English
+  name: Supplementary Liability Company
+- abbreviations: [!!python/str "T\xE4is\xFChing", !!python/str "T\xDC", !!python/str "T.\xDC",
+    !!python/str "T.\xDC."]
+  country: Estonia
+  language: Estonian
+  name: !!python/str "T\xE4is\xFChing"
+- abbreviations: [!!python/str "T\u1EADp \u0110o\xE0n"]
+  country: Vietnam
+  language: Vietnamese
+  name: !!python/str "T\u1EADp \u0110o\xE0n"
+- abbreviations: [Temporary Commercial Registration, TCR, T.C.R, T.C.R.]
+  country: Saudi Arabia
+  language: English
+  name: Temporary Commercial Registration
+- abbreviations: [Teoranta, Teo, Teo.]
+  country: Ireland
+  language: Irish
+  name: Teoranta
+- abbreviations: [Tiha Druzba, TD, T.D, T.D.]
+  country: Slovenia
+  language: Slovenian
+  name: Tiha Druzba
+- abbreviations: [Tijdelijke Handelsvereniging]
+  country: Belgium
+  language: Dutch
+  name: Tijdelijke Handelsvereniging
+- abbreviations: [!!python/str "Tikroji \u016Akin\u0117 Bendrija - General Partnership",
+    !!python/str "T\u016AB", !!python/str "T.\u016A.B", !!python/str "T.\u016A.B."]
+  country: Lithuania
+  language: Lithuanian
+  name: !!python/str "Tikroji \u016Akin\u0117 Bendrija"
+- abbreviations: [Toiminimi, TMI, 'T:mi']
+  country: Finland
+  language: Finnish
+  name: Toiminimi
+- abbreviations: [Tokumei Kumiai, TK, T.K, T.K.]
+  country: Japan
+  language: Japanese
+  name: Tokumei Kumiai
+- abbreviations: [!!python/str "Tokusyu-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Tokusyu H\u014Djin"
+- abbreviations: [Tokutei-Hieiri-Katsudou-Houjin]
+  country: Japan
+  language: Japanese
+  name: Tokutei Hieiri Katsudou Houjin
+- abbreviations: [!!python/str "T\u1ED5ng C\xF4ng Ty"]
+  country: Vietnam
+  language: Vietnamese
+  name: !!python/str "T\u1ED5ng C\xF4ng Ty"
+- abbreviations: [!!python/str "Toushi Jigyou Y\u016Bgensekin Kumiai"]
+  country: Japan
+  language: Vietnamese
+  name: !!python/str "Toushi Jigyou Y\u016Bgensekin Kumiai"
+- abbreviations: [Tovarishchestvo S Ogranichennoy Otvetstvennostyu, !!python/str "\u0422\u041E\
+      \u041E", !!python/str "\u0422.\u041E.\u041E", !!python/str "\u0422.\u041E.\u041E\
+      ."]
+  country: Kazakhstan
+  language: Russian
+  name: Tovarishchestvo S Ogranichennoy Otvetstvennostyu
+- abbreviations: [!!python/str "Tovarystvo Z Dodanoiu Vidpovidal\u2019nistiu", TDV,
+    T.D.V, T.D.V.]
+  country: Ukraine
+  language: Russian
+  name: !!python/str "Tovarystvo Z Dodanoiu Vidpovidal\u2019nistiu"
+- abbreviations: [Tovarystvo Z Obmezhenoiu Vidpovidal'nistiu, !!python/str "\u0422\u041E\
+      \u0412", !!python/str "\u0422.\u041E.\u0412", !!python/str "\u0422.\u041E.\u0412\
+      ."]
+  country: Ukraine
+  language: Russian
+  name: Tovarystvo Z Obmezhenoiu Vidpovidal'nistiu
+- abbreviations: [Trust]
+  country: Global
+  language: English
+  name: Trust
+- abbreviations: [Trusts]
+  country: Cyprus
+  language: English
+  name: Trusts
+- abbreviations: [!!python/str "Tulundus\xFChistu"]
+  country: Estonia
+  language: Estonian
+  name: !!python/str "Tulundus\xFChistu"
+- abbreviations: [!!python/str "T\xFCrk Limited \u015Eirketi", !!python/str "TL\u015E",
+    !!python/str "T.L.\u015E", !!python/str "T.L.\u015E."]
+  country: Turkey
+  language: Turkish
+  name: !!python/str "T\xFCrk Limited \u015Eirketi"
+- abbreviations: [Unipersona]
+  country: Colombia
+  language: Spanish
+  name: Unipersona
+- abbreviations: [Unipessoal Limitada]
+  country: Portugal
+  language: Portuguese
+  name: Unipessoal Limitada
+- abbreviations: [Unlimited, Ultd, Ultd., Unltd, Unltd.]
+  country: Global
+  language: English
+  name: Unlimited
+- abbreviations: [Unlimited Company]
+  country: Global
+  language: English
+  name: Unlimited Company
+- abbreviations: [Unlimited Liability Corporation, ULC, U.L.C, U.L.C.]
+  country: Canada
+  language: English
+  name: Unlimited Liability Corporation
+- abbreviations: [Usaha Dagang, UD, U.D, U.D.]
+  country: Indonesia
+  language: Indonesian
+  name: Usaha Dagang
+- abbreviations: [!!python/str "Usaldus\xFChing", !!python/str "U\xDC", !!python/str "U.\xDC",
+    !!python/str "U.\xDC."]
+  country: Estonia
+  language: Estonian
+  name: !!python/str "Usaldus\xFChing"
+- abbreviations: [!!python/str "U\u017Edaroji Akcin\u0117 Bendrov\u0117", UAB, U.A.B,
+    U.A.B.]
+  country: Lithuania
+  language: Lithuanian
+  name: !!python/str "U\u017Edaroji Akcin\u0117 Bendrov\u0117"
+- abbreviations: [Valtion Liikelaitos]
+  country: Finland
+  language: Finnish
+  name: Valtion Liikelaitos
+- abbreviations: [Vennootschap Bij Wijze Van Eenvoudige Geldschieting, VEG, V.E.G,
+    V.E.G.]
+  country: Belgium
+  language: Dutch
+  name: Vennootschap Bij Wijze Van Eenvoudige Geldschieting
+- abbreviations: [Vennootschap Onder Firma, VOF, V.O.F, V.O.F.]
+  country: Netherlands
+  language: Dutch
+  name: Vennootschap Onder Firma
+- abbreviations: [Vennootschap Onder Gemeenschappelijke Naam, VGN, V.G.N, V.G.N.]
+  country: Belgium
+  language: Dutch
+  name: Vennootschap Onder Gemeenschappelijke Naam
+- abbreviations: [Verein]
+  country: Austria
+  language: German
+  name: Verein
+- abbreviations: [!!python/str "Ve\u0159ejna Obchodn\xED Spole\u010Dnost", VOS, V.O.S,
+    V.O.S.]
+  country: Czech Republic
+  language: Czech
+  name: !!python/str "Ve\u0159ejna Obchodn\xED Spole\u010Dnost"
+- abbreviations: [Vereniging]
+  country: Netherlands
+  language: Dutch
+  name: Vereniging
+- abbreviations: [Vereniging Zonder Winstoogmerk, VZW, V.Z.W, V.Z.W.]
+  country: Belgium
+  language: Dutch
+  name: Vereniging Zonder Winstoogmerk
+- abbreviations: [!!python/str "Verjn\xE1 Obchodn\xE1 Spolo\u010Dnos\u0165", VOS,
+    V.O.S, V.O.S.]
+  country: Slovakia
+  language: Slovak
+  name: !!python/str "Verjn\xE1 Obchodn\xE1 Spolo\u010Dnos\u0165"
+- abbreviations: [Vidkryte Aktsionerne Tovarystvo, VAT, V.A.T, V.A.T.]
+  country: Ukraine
+  language: Slovak
+  name: Vidkryte Aktsionerne Tovarystvo
+- abbreviations: [!!python/str "Vie\u0161oji \u012Estaiga", !!python/str "V\u0161\u012E",
+    !!python/str "V\u0161.\u012E"]
+  country: Lithuania
+  language: Lithuanian
+  name: !!python/str "Vie\u0161oji \u012Estaiga"
+- abbreviations: [!!python/str "X\xED Nghi\u1EC7p"]
+  country: Vietnam
+  language: Vietnamese
+  name: !!python/str "X\xED Nghi\u1EC7p"
+- abbreviations: [Yayasan]
+  country: Indonesia
+  language: Indonesian
+  name: Yayasan
+- abbreviations: [Yksityinen Elinkeinonharjoittaja, TMI, T.M.I, T.M.I.]
+  country: Finland
+  language: Finnish
+  name: Yksityinen Elinkeinonharjoittaja
+- abbreviations: [!!python/str "Y\u016Bgen-Gaisha", YK, Y.K, Y.K.]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Y\u016Bgen Gaisha"
+- abbreviations: [!!python/str "Y\u016Bgen-Sekinin-Jigy\u014D-Kumiai"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Y\u016Bgen Sekinin Jigy\u014D Kumiai"
+- abbreviations: [Yuhan Hoesa]
+  country: South Korea
+  language: Korean
+  name: Yuhan Hoesa
+- abbreviations: [Zakryte Aktsionerne Tovarystvo, ZAT, Z.A.T, Z.A.T.]
+  country: Ukraine
+  language: Polish
+  name: Zakryte Aktsionerne Tovarystvo
+- abbreviations: [Zakrytoe Aktionernoye Obshchestvo, ZAO, Z.A.O]
+  country: Russia
+  language: Uzbek
+  name: Zakrytoe Aktionernoye Obshchestvo
+- abbreviations: [!!python/str "Z\xE1rtk\xF6r\u0171en M\u0171k\xF6d\u0151 R\xE9szv\xE9\
+      nyt\xE1rsas\xE1g", Zrt, Zrt.]
+  country: Hungary
+  language: Hungarian
+  name: !!python/str "Z\xE1rtk\xF6r\u0171en M\u0171k\xF6d\u0151 R\xE9szv\xE9nyt\xE1\
+    rsas\xE1g"
+- abbreviations: [!!python/str "Zeirishi-H\u014Djin"]
+  country: Japan
+  language: Japanese
+  name: !!python/str "Zeirishi H\u014Djin"
+- abbreviations: [Zenbu-Jimu-Kumiai]
+  country: Japan
+  language: Japanese
+  name: Zenbu Jimu Kumiai
+- abbreviations: [!!python/str "\u0391\u03BD\u03CE\u03BD\u03C5\u03BC\u03B7 \u0392\u03B9\
+      \u03BF\u03BC\u03B7\u03C7\u03B1\u03BD\u03B9\u03BA\u03AE \u0395\u03BC\u03C0\u03BF\
+      \u03C1\u03B9\u03BA\u03AE \u0395\u03C4\u03B1\u03B9\u03C1\u03B5\u03AF\u03B1",
+    ABEE, A.B.E.E, A.B.E.E.]
+  country: Greece
+  language: Greek
+  name: !!python/str "\u0391\u03BD\u03CE\u03BD\u03C5\u03BC\u03B7 \u0392\u03B9\u03BF\
+    \u03BC\u03B7\u03C7\u03B1\u03BD\u03B9\u03BA\u03AE \u0395\u03BC\u03C0\u03BF\u03C1\
+    \u03B9\u03BA\u03AE \u0395\u03C4\u03B1\u03B9\u03C1\u03B5\u03AF\u03B1"
+- abbreviations: [!!python/str "\u0391\u03BD\u03CE\u03BD\u03C5\u03BC\u03B7 \u0395\u03C4\
+      \u03B1\u03B9\u03C1\u03AF\u03B1", AE, A.E, A.E.]
+  country: Greece
+  language: Greek
+  name: !!python/str "\u0391\u03BD\u03CE\u03BD\u03C5\u03BC\u03B7 \u0395\u03C4\u03B1\
+    \u03B9\u03C1\u03AF\u03B1"
+- abbreviations: [!!python/str "\u0395\u03C4\u03B1\u03B9\u03C1\u03AF\u03B1 \u03A0\u03B5\
+      \u03C1\u03B9\u03BF\u03C1\u03B9\u03C3\u03BC\u03AD\u03BD\u03B7\u03C2 \u0395\u03C5\
+      \u03B8\u03CD\u03BD\u03B7\u03C2", EPE, E.P.E]
+  country: Greece
+  language: Greek
+  name: !!python/str "\u0395\u03C4\u03B1\u03B9\u03C1\u03AF\u03B1 \u03A0\u03B5\u03C1\
+    \u03B9\u03BF\u03C1\u03B9\u03C3\u03BC\u03AD\u03BD\u03B7\u03C2 \u0395\u03C5\u03B8\
+    \u03CD\u03BD\u03B7\u03C2"
+- abbreviations: [!!python/str "\u0395\u03C4\u03B5\u03C1\u03CC\u03C1\u03C1\u03C5\u03B8\
+      \u03BC\u03BF\u03C2 \u0395\u03C4\u03B1\u03B9\u03C1\u03AF\u03B1", EE, E.E, E.E.]
+  country: Greece
+  language: Greek
+  name: !!python/str "\u0395\u03C4\u03B5\u03C1\u03CC\u03C1\u03C1\u03C5\u03B8\u03BC\
+    \u03BF\u03C2 \u0395\u03C4\u03B1\u03B9\u03C1\u03AF\u03B1"
+- abbreviations: [!!python/str "\u039C\u03BF\u03BD\u03BF\u03C0\u03C1\u03CC\u03C3\u03C9\
+      \u03C0\u03B7 \u0395\u03C4\u03B1\u03B9\u03C1\u03AF\u03B1 \u03A0\u03B5\u03C1\u03B9\
+      \u03BF\u03C1\u03B9\u03C3\u03BC\u03AD\u03BD\u03B7\u03C2 \u0395\u03C5\u03B8\u03CD\
+      \u03BD\u03B7\u03C2", MEPE, M.E.P.E, M.E.P.E.]
+  country: Greece
+  language: Greek
+  name: !!python/str "\u039C\u03BF\u03BD\u03BF\u03C0\u03C1\u03CC\u03C3\u03C9\u03C0\
+    \u03B7 \u0395\u03C4\u03B1\u03B9\u03C1\u03AF\u03B1 \u03A0\u03B5\u03C1\u03B9\u03BF\
+    \u03C1\u03B9\u03C3\u03BC\u03AD\u03BD\u03B7\u03C2 \u0395\u03C5\u03B8\u03CD\u03BD\
+    \u03B7\u03C2"
+- abbreviations: [!!python/str "\u039F\u03BC\u03CC\u03C1\u03C1\u03C5\u03B8\u03BC\u03B7\
+      \ \u0392\u03B9\u03BF\u03BC\u03B7\u03C7\u03B1\u03BD\u03B9\u03BA\u03AE \u0395\u03BC\
+      \u03C0\u03BF\u03C1\u03B9\u03BA\u03AE \u0395\u03C4\u03B1\u03B9\u03C1\u03B5\u03AF\
+      \u03B1", OBEE, O.B.E.E]
+  country: Greece
+  language: Greek
+  name: !!python/str "\u039F\u03BC\u03CC\u03C1\u03C1\u03C5\u03B8\u03BC\u03B7 \u0392\
+    \u03B9\u03BF\u03BC\u03B7\u03C7\u03B1\u03BD\u03B9\u03BA\u03AE \u0395\u03BC\u03C0\
+    \u03BF\u03C1\u03B9\u03BA\u03AE \u0395\u03C4\u03B1\u03B9\u03C1\u03B5\u03AF\u03B1"
+- abbreviations: [!!python/str "\u039F\u03BC\u03CC\u03C1\u03C1\u03C5\u03B8\u03BC\u03BF\
+      \u03C2 \u0395\u03C4\u03B1\u03B9\u03C1\u03AF\u03B1", OE, O.E, O.E.]
+  country: Greece
+  language: Greek
+  name: !!python/str "\u039F\u03BC\u03CC\u03C1\u03C1\u03C5\u03B8\u03BC\u03BF\u03C2\
+    \ \u0395\u03C4\u03B1\u03B9\u03C1\u03AF\u03B1"
+- abbreviations: [!!python/str "\u0410\u0432\u0442\u043E\u043D\u043E\u043C\u043D\u0430\
+      \u044F \u041D\u0435\u043A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\
+      \u0430\u044F \u041E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u044F",
+    ANO, A.N.O, A.N.O.]
+  country: Russia
+  language: Russian
+  name: !!python/str "\u0410\u0432\u0442\u043E\u043D\u043E\u043C\u043D\u0430\u044F\
+    \ \u041D\u0435\u043A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\u0441\u043A\u0430\
+    \u044F \u041E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u044F"
+- abbreviations: [!!python/str "\u0410\u0434\u043A\u0440\u044B\u0442\u0430\u0435 \u0410\
+      \u043A\u0446\u044B\u044F\u043D\u0435\u0440\u043D\u0430\u0435 \u0422\u0430\u0432\
+      \u0430\u0440\u044B\u0441\u0442\u0432\u0430", !!python/str "\u0410\u0410\u0422",
+    !!python/str "\u0410.\u0410.\u0422", !!python/str "\u0410.\u0410.\u0422."]
+  country: Belarus
+  language: Belarusian
+  name: !!python/str "\u0410\u0434\u043A\u0440\u044B\u0442\u0430\u0435 \u0410\u043A\
+    \u0446\u044B\u044F\u043D\u0435\u0440\u043D\u0430\u0435 \u0422\u0430\u0432\u0430\
+    \u0440\u044B\u0441\u0442\u0432\u0430"
+- abbreviations: [!!python/str "\u0410\u043A\u0446\u0438\u043E\u043D\u0430\u0440\u0441\
+      \u043A\u043E \u0414\u0440\u0443\u0448\u0442\u0432\u043E", !!python/str "\u0410\u0414",
+    !!python/str "\u0410.\u0414", !!python/str "\u0410.\u0414."]
+  country: Global
+  language: Serbian
+  name: !!python/str "\u0410\u043A\u0446\u0438\u043E\u043D\u0430\u0440\u0441\u043A\
+    \u043E \u0414\u0440\u0443\u0448\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u0410\u043A\u0446\u0438\u043E\u043D\u0435\u0440\u043D\
+      \u043E \u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E \u0421\u044A\u0441\
+      \ \u0421\u043F\u0435\u0446\u0438\u0430\u043B\u043D\u0430 \u0418\u043D\u0432\u0435\
+      \u0441\u0442\u0438\u0446\u0438\u043E\u043D\u043D\u0430 \u0426\u0435\u043B",
+    !!python/str "\u0410\u0414\u0421\u0418\u0426", !!python/str "\u0410.\u0414.\u0421\
+      .\u0418.\u0426", !!python/str "\u0410.\u0414.\u0421.\u0418.\u0426."]
+  country: Bulgaria
+  language: Bulgarian
+  name: !!python/str "\u0410\u043A\u0446\u0438\u043E\u043D\u0435\u0440\u043D\u043E\
+    \ \u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E \u0421\u044A\u0441 \u0421\
+    \u043F\u0435\u0446\u0438\u0430\u043B\u043D\u0430 \u0418\u043D\u0432\u0435\u0441\
+    \u0442\u0438\u0446\u0438\u043E\u043D\u043D\u0430 \u0426\u0435\u043B"
+- abbreviations: [!!python/str "\u0410\u043A\u0446\u0438\u043E\u043D\u0435\u0440\u043D\
+      \u043E\u0435 \u041E\u0431\u0449\u0435\u0441\u0442\u0432\u043E", !!python/str "\u0410\u041E",
+    !!python/str "\u0410.\u041E", !!python/str "\u0410.\u041E."]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u0410\u043A\u0446\u0438\u043E\u043D\u0435\u0440\u043D\u043E\
+    \u0435 \u041E\u0431\u0449\u0435\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u0410\u043A\u0446\u0456\u043E\u043D\u0435\u0440\u043D\
+      \u0435 \u0422\u043E\u0432\u0430\u0440\u0438\u0441\u0442\u0432\u043E", !!python/str "A\u0422",
+    !!python/str "A.\u0422", !!python/str "A.\u0422."]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u0410\u043A\u0446\u0456\u043E\u043D\u0435\u0440\u043D\u0435\
+    \ \u0422\u043E\u0432\u0430\u0440\u0438\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u0412i\u0434\u043A\u0440\u0438\u0442\u0435 \u0410\
+      \u043A\u0446i\u043E\u043D\u0435\u0440\u043D\u0435 \u0422\u043E\u0432\u0430\u0440\
+      \u0438\u0441\u0442\u0432\u043E", !!python/str "\u0412\u0410\u0422", !!python/str "\u0412\
+      .\u0410.\u0422", !!python/str "\u0412.\u0410.\u0422."]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u0412i\u0434\u043A\u0440\u0438\u0442\u0435 \u0410\u043A\u0446\
+    i\u043E\u043D\u0435\u0440\u043D\u0435 \u0422\u043E\u0432\u0430\u0440\u0438\u0441\
+    \u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u0413\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\
+      \u0432\u0435\u043D\u043D\u043E\u0435 \u041F\u0440\u0435\u0434\u043F\u0440\u0438\
+      \u044F\u0442\u0438\u0435", !!python/str "\u0413\u041F", !!python/str "\u0413\
+      .\u041F", !!python/str "\u0413.\u041F."]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u0413\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\
+    \u0435\u043D\u043D\u043E\u0435 \u041F\u0440\u0435\u0434\u043F\u0440\u0438\u044F\
+    \u0442\u0438\u0435"
+- abbreviations: [!!python/str "\u0413\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\
+      \u0432\u0435\u043D\u043D\u043E\u0435 \u0423\u043D\u0438\u0442\u0430\u0440\u043D\
+      \u043E\u0435 \u041F\u0440\u0435\u0434\u043F\u0440\u0438\u044F\u0442\u0438\u0435",
+    GP, G.P, G.P., GUP, G.U.P, G.U.P., !!python/str "\u0413\u0423\u041F", !!python/str "\u0413\
+      .\u0423.\u041F", !!python/str "\u0413.\u0423.\u041F."]
+  country: Russia
+  language: Russian
+  name: !!python/str "\u0413\u043E\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\
+    \u0435\u043D\u043D\u043E\u0435 \u0423\u043D\u0438\u0442\u0430\u0440\u043D\u043E\
+    \u0435 \u041F\u0440\u0435\u0434\u043F\u0440\u0438\u044F\u0442\u0438\u0435"
+- abbreviations: [!!python/str "\u0414\u0435\u0440\u0436\u0430\u0432\u043D\u0435 \u0410\
+      \u043A\u0446\u0456\u043E\u043D\u0435\u0440\u043D\u0435 \u0422\u043E\u0432\u0430\
+      \u0440\u0438\u0441\u0442\u0432\u043E", DAT, D.A.T, D.A.T., !!python/str "\u0414\u0410\
+      \u0422", !!python/str "\u0414.\u0410.\u0422", !!python/str "\u0414.\u0410.\u0422\
+      ."]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u0414\u0435\u0440\u0436\u0430\u0432\u043D\u0435 \u0410\u043A\
+    \u0446\u0456\u043E\u043D\u0435\u0440\u043D\u0435 \u0422\u043E\u0432\u0430\u0440\
+    \u0438\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E\
+      \ \u0421 \u041E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0430 \u041E\
+      \u0442\u0433\u043E\u0432\u043E\u0440\u043D\u043E\u0441\u0442", !!python/str "\u041E\u041E\
+      \u0414", !!python/str "\u041E.\u041E.\u0414", !!python/str "\u041E.\u041E.\u0414\
+      ."]
+  country: Bulgaria
+  language: Bulgarian
+  name: !!python/str "\u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E \u0421\
+    \ \u041E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0430 \u041E\u0442\u0433\
+    \u043E\u0432\u043E\u0440\u043D\u043E\u0441\u0442"
+- abbreviations: [!!python/str "\u0414\u0440\u0443\u0448\u0442\u0432\u043E \u0421\
+      \ \u041E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043E\u043C \u041E\u0434\
+      \u0433\u043E\u0432\u043E\u0440\u043D\u043E\u0448\u045B\u0443", !!python/str "\u0414\u041E\
+      \u041E", !!python/str "\u0414.\u041E.\u041E", !!python/str "\u0414.\u041E.\u041E\
+      ."]
+  country: Serbia
+  language: Serbian
+  name: !!python/str "\u0414\u0440\u0443\u0448\u0442\u0432\u043E \u0421 \u041E\u0433\
+    \u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043E\u043C \u041E\u0434\u0433\u043E\
+    \u0432\u043E\u0440\u043D\u043E\u0448\u045B\u0443"
+- abbreviations: [!!python/str "\u0414\u0440\u0443\u0448\u0442\u0432\u043E \u0421\u043E\
+      \ \u041E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0430 \u041E\u0434\u0433\
+      \u043E\u0432\u043E\u0440\u043D\u043E\u0441\u0442", !!python/str "\u0414\u041E\
+      \u041E", !!python/str "\u0414.\u041E.\u041E", !!python/str "\u0414.\u041E.\u041E\
+      .", DOO, D.O.O, D.O.O.]
+  country: Macedonia
+  language: Macedonian
+  name: !!python/str "\u0414\u0440\u0443\u0448\u0442\u0432\u043E \u0421\u043E \u041E\
+    \u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0430 \u041E\u0434\u0433\u043E\
+    \u0432\u043E\u0440\u043D\u043E\u0441\u0442"
+- abbreviations: [!!python/str "\u0415\u0434\u043D\u043E\u043B\u0438\u0447\u0435\u043D\
+      \ \u0422\u044A\u0440\u0433\u043E\u0432\u0435\u0446", ET, E.T, E.T.]
+  country: Bulgaria
+  language: Bulgarian
+  name: !!python/str "\u0415\u0434\u043D\u043E\u043B\u0438\u0447\u0435\u043D \u0422\
+    \u044A\u0440\u0433\u043E\u0432\u0435\u0446"
+- abbreviations: [!!python/str "\u0415\u0434\u043D\u043E\u043B\u0438\u0447\u043D\u043E\
+      \ \u0410\u043A\u0446\u0438\u043E\u043D\u0435\u0440\u043D\u043E \u0414\u0440\u0443\
+      \u0436\u0435\u0441\u0442\u0432\u043E", !!python/str "\u0415\u0410\u0414", !!python/str "\u0415\
+      .\u0410.\u0414", !!python/str "\u0415.\u0410.\u0414."]
+  country: Bulgaria
+  language: Bulgarian
+  name: !!python/str "\u0415\u0434\u043D\u043E\u043B\u0438\u0447\u043D\u043E \u0410\
+    \u043A\u0446\u0438\u043E\u043D\u0435\u0440\u043D\u043E \u0414\u0440\u0443\u0436\
+    \u0435\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u0415\u0434\u043D\u043E\u043B\u0438\u0447\u043D\u043E\
+      \ \u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E \u0421 \u041E\u0433\
+      \u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0430 \u041E\u0442\u0433\u043E\u0432\
+      \u043E\u0440\u043D\u043E\u0441\u0442", !!python/str "\u0415\u041E\u041E\u0414",
+    !!python/str "\u0415.\u041E.\u041E.\u0414", !!python/str "\u0415.\u041E.\u041E\
+      .\u0414."]
+  country: Bulgaria
+  language: Bulgarian
+  name: !!python/str "\u0415\u0434\u043D\u043E\u043B\u0438\u0447\u043D\u043E \u0414\
+    \u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E \u0421 \u041E\u0433\u0440\u0430\
+    \u043D\u0438\u0447\u0435\u043D\u0430 \u041E\u0442\u0433\u043E\u0432\u043E\u0440\
+    \u043D\u043E\u0441\u0442"
+- abbreviations: [!!python/str "\u0417\u0430\u043A\u0440\u0438\u0442\u0435 \u0410\u043A\
+      \u0446i\u043E\u043D\u0435\u0440\u043D\u0435 \u0422\u043E\u0432\u0430\u0440\u0438\
+      \u0441\u0442\u0432\u043E", !!python/str "\u0417\u0410\u0422", !!python/str "\u0417\u0410\
+      .\u0422", !!python/str "\u0417\u0410.\u0422."]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u0417\u0430\u043A\u0440\u0438\u0442\u0435 \u0410\u043A\u0446\
+    i\u043E\u043D\u0435\u0440\u043D\u0435 \u0422\u043E\u0432\u0430\u0440\u0438\u0441\
+    \u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u0417\u0430\u043A\u0440\u044B\u0442\u0430\u0435 \u0410\
+      \u0446\u044B\u044F\u043D\u0435\u0440\u043D\u0430\u0435 \u0422\u0430\u0432\u0430\
+      \u0440\u044B\u0441\u0442\u0432\u0430", !!python/str "\u0417\u0410\u0422", !!python/str "\u0417\u0410\
+      .\u0422", !!python/str "\u0417\u0410.\u0422."]
+  country: Belarus
+  language: Belarusian
+  name: !!python/str "\u0417\u0430\u043A\u0440\u044B\u0442\u0430\u0435 \u0410\u0446\
+    \u044B\u044F\u043D\u0435\u0440\u043D\u0430\u0435 \u0422\u0430\u0432\u0430\u0440\
+    \u044B\u0441\u0442\u0432\u0430"
+- abbreviations: [!!python/str "\u0417\u0430\u043A\u0440\u044B\u0442\u043E\u0435 \u0410\
+      \u043A\u0446\u0438\u043E\u043D\u0435\u0440\u043D\u043E\u0435 \u041E\u0431\u0449\
+      \u0435\u0441\u0442\u0432\u043E", !!python/str "\u0417\u0410\u041E", !!python/str "\u0417\u0410\
+      .\u041E", !!python/str "\u0417\u0410.\u041E."]
+  country: Russia
+  language: Russian
+  name: !!python/str "\u0417\u0430\u043A\u0440\u044B\u0442\u043E\u0435 \u0410\u043A\
+    \u0446\u0438\u043E\u043D\u0435\u0440\u043D\u043E\u0435 \u041E\u0431\u0449\u0435\
+    \u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u0418\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\
+      \u043B\u044C\u043D\u044B\u0439 \u041F\u0440\u0435\u0434\u043F\u0440\u0438\u043D\
+      \u0438\u043C\u0430\u0442\u0435\u043B\u044C", !!python/str "\u0418\u041F", !!python/str "\u0418\
+      .\u041F", !!python/str "\u0418.\u041F."]
+  country: Russia
+  language: Russian
+  name: !!python/str "\u0418\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\
+    \u044C\u043D\u044B\u0439 \u041F\u0440\u0435\u0434\u043F\u0440\u0438\u043D\u0438\
+    \u043C\u0430\u0442\u0435\u043B\u044C"
+- abbreviations: [!!python/str "\u0406\u043D\u0434\u044B\u0432\u0456\u0434\u0443\u0430\
+      \u043B\u044C\u043D\u044B \u041F\u0440\u0430\u0434\u043F\u0440\u044B\u043C\u0430\
+      \u043B\u044C\u043D\u0456\u043A", !!python/str "\u0406\u041F", !!python/str "\u0406\
+      .\u041F", !!python/str "\u0406.\u041F."]
+  country: Belarus
+  language: Belarusian
+  name: !!python/str "\u0406\u043D\u0434\u044B\u0432\u0456\u0434\u0443\u0430\u043B\
+    \u044C\u043D\u044B \u041F\u0440\u0430\u0434\u043F\u0440\u044B\u043C\u0430\u043B\
+    \u044C\u043D\u0456\u043A"
+- abbreviations: [!!python/str "\u0408\u0430\u0432\u043D\u043E \u0422\u0440\u0433\u043E\
+      \u0432\u0441\u043A\u043E \u0414\u0440\u0443\u0448\u0442\u0432\u043E", JTD, J.T.D,
+    J.T.D., !!python/str "\u0408\u0422\u0414", !!python/str "\u0408.\u0422.\u0414",
+    !!python/str "\u0408.\u0422.\u0414."]
+  country: Macedonia
+  language: Macedonian
+  name: !!python/str "\u0408\u0430\u0432\u043D\u043E \u0422\u0440\u0433\u043E\u0432\
+    \u0441\u043A\u043E \u0414\u0440\u0443\u0448\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\
+      \u0435 \u0422\u043E\u0432\u0430\u0440\u0438\u0441\u0442\u0432\u043E", KT, K.T,
+    K.T.]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\u0435\
+    \ \u0422\u043E\u0432\u0430\u0440\u0438\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\
+      \u043E \u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E \u0421 \u0410\u043A\
+      \u0446\u0438\u0438", !!python/str "\u041A\u0414\u0410", !!python/str "\u041A\
+      .\u0414.\u0410", !!python/str "\u041A.\u0414.\u0410."]
+  country: Bulgaria
+  language: Macedonian
+  name: !!python/str "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\u043E\
+    \ \u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E \u0421 \u0410\u043A\u0446\
+    \u0438\u0438"
+- abbreviations: [!!python/str "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\
+      \u043E \u0414\u0440\u0443\u0448\u0442\u0432\u043E", KD, K.D, K.D., !!python/str "\u041A\u0414",
+    !!python/str "\u041A.\u0414", !!python/str "\u041A.\u0414."]
+  country: Macedonia
+  language: Macedonian
+  name: !!python/str "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\u043E\
+    \ \u0414\u0440\u0443\u0448\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\
+      \u043E \u0414\u0440\u0443\u0448\u0442\u0432\u043E \u0421\u043E \u0410\u043A\u0446\
+      \u0438\u0438", KDA, K.D.A, K.D.A., !!python/str "\u041A\u0414\u0410", !!python/str "\u041A\
+      .\u0414.\u0410", !!python/str "\u041A.\u0414.\u0410."]
+  country: Macedonia
+  language: Macedonian
+  name: !!python/str "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\u043E\
+    \ \u0414\u0440\u0443\u0448\u0442\u0432\u043E \u0421\u043E \u0410\u043A\u0446\u0438\
+    \u0438"
+- abbreviations: [!!python/str "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\
+      \u043E\u0435 \u0422\u043E\u0432\u0430\u0440\u0438\u0449\u0435\u0441\u0442\u0432\
+      \u043E", !!python/str "\u041A\u0422", !!python/str "\u041A.\u0422", !!python/str "\u041A\
+      .\u0422."]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u041A\u043E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\u043E\
+    \u0435 \u0422\u043E\u0432\u0430\u0440\u0438\u0449\u0435\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041A\u043E\u043E\u043F\u0435\u0440\u0430\u0442\u0438\
+      \u0432"]
+  country: Russia
+  language: Russian
+  name: !!python/str "\u041A\u043E\u043E\u043F\u0435\u0440\u0430\u0442\u0438\u0432"
+- abbreviations: [!!python/str "\u041C\u0430\u0441\u044A\u0443\u043B\u0438\u044F\u0442\
+      \u0438 \u0427\u0435\u043A\u043B\u0430\u043D\u0433\u0430\u043D \u0416\u0430\u043C\
+      \u0438\u044F\u0442", MChJ, M.Ch.J, M.Ch.J.]
+  country: Uzbekistan
+  language: Tajik
+  name: !!python/str "\u041C\u0430\u0441\u044A\u0443\u043B\u0438\u044F\u0442\u0438\
+    \ \u0427\u0435\u043A\u043B\u0430\u043D\u0433\u0430\u043D \u0416\u0430\u043C\u0438\
+    \u044F\u0442"
+- abbreviations: [!!python/str "\u041D\u0435\u043A\u043E\u043C\u043C\u0435\u0440\u0447\
+      \u0435\u0441\u043A\u0430\u044F \u041E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\
+      \u0446\u0438\u044F"]
+  country: Russia
+  language: Russian
+  name: !!python/str "\u041D\u0435\u043A\u043E\u043C\u043C\u0435\u0440\u0447\u0435\
+    \u0441\u043A\u0430\u044F \u041E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\
+    \u0438\u044F"
+- abbreviations: [!!python/str "\u041E\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043D\
+      \u043D\u043E\u0435 \u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u0438\
+      \u0435", !!python/str "\u041E\u041E", !!python/str "\u041E.\u041E", !!python/str "\u041E\
+      .\u041E."]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u041E\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043D\u043D\
+    \u043E\u0435 \u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u0435"
+- abbreviations: [!!python/str "\u041E\u0431\u0449\u0435\u0441\u0442\u0432\u043E \u0421\
+      \ \u041E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043D\u043E\u0439 \u041E\
+      \u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0441\u0442\
+      \u044C\u044E", OOO, O.O.O, O.O.O.]
+  country: Russia
+  language: Russian
+  name: !!python/str "\u041E\u0431\u0449\u0435\u0441\u0442\u0432\u043E \u0421 \u041E\
+    \u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043D\u043E\u0439 \u041E\u0442\
+    \u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u0441\u0442\u044C\
+    \u044E"
+- abbreviations: [!!python/str "\u041E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\u043E\
+      \ \u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E", !!python/str "\u041A\u0414",
+    !!python/str "\u041A.\u0414", !!python/str "\u041A.\u0414."]
+  country: Bulgaria
+  language: Bulgarian
+  name: !!python/str "\u041E\u043C\u0430\u043D\u0434\u0438\u0442\u043D\u043E \u0414\
+    \u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041E\u0440\u0442\u0430\u0447\u043A\u043E \u0414\u0440\
+      \u0443\u0448\u0442\u0432\u043E", !!python/str "\u041E\u0414", !!python/str "\u041E\
+      .\u0414", !!python/str "\u041E.\u0414."]
+  country: Serbia
+  language: Serbian
+  name: !!python/str "\u041E\u0440\u0442\u0430\u0447\u043A\u043E \u0414\u0440\u0443\
+    \u0448\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041E\u0442\u043A\u0440\u044B\u0442\u043E\u0435 \u0410\
+      \u043A\u0446\u0438\u043E\u043D\u0435\u0440\u043D\u043E\u0435 \u041E\u0431\u0449\
+      \u0435\u0441\u0442\u0432\u043E", OAO, O.A.O, O.A.O.]
+  country: Russia
+  language: Russian
+  name: !!python/str "\u041E\u0442\u043A\u0440\u044B\u0442\u043E\u0435 \u0410\u043A\
+    \u0446\u0438\u043E\u043D\u0435\u0440\u043D\u043E\u0435 \u041E\u0431\u0449\u0435\
+    \u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041F\u043E\u0432\u043D\u0435 \u0422\u043E\u0432\u0430\
+      \u0440\u0438\u0441\u0442\u0432\u043E", !!python/str "\u041FT", !!python/str "\u041F\
+      .T", !!python/str "\u041F.T."]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u041F\u043E\u0432\u043D\u0435 \u0422\u043E\u0432\u0430\u0440\
+    \u0438\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041F\u043E\u043B\u043D\u043E\u0435 \u0422\u043E\u0432\
+      \u0430\u0440\u0438\u0449\u0435\u0441\u0442\u0432\u043E", !!python/str "\u041F\u0422",
+    !!python/str "\u041F.T", !!python/str "\u041F.T."]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u041F\u043E\u043B\u043D\u043E\u0435 \u0422\u043E\u0432\u0430\
+    \u0440\u0438\u0449\u0435\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041F\u043E\u0442\u0440\u0435\u0431\u0438\u0442\u0435\
+      \u043B\u044C\u0441\u043A\u0438\u0439 \u041A\u043E\u043E\u043F\u0435\u0440\u0430\
+      \u0442\u0438\u0432", !!python/str "\u041F\u0442\u041A"]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u041F\u043E\u0442\u0440\u0435\u0431\u0438\u0442\u0435\u043B\
+    \u044C\u0441\u043A\u0438\u0439 \u041A\u043E\u043E\u043F\u0435\u0440\u0430\u0442\
+    \u0438\u0432"
+- abbreviations: [!!python/str "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u0435 \u0410\
+      \u043A\u0446\u0456\u043E\u043D\u0435\u0440\u043D\u0435 \u0422\u043E\u0432\u0430\
+      \u0440\u0438\u0441\u0442\u0432\u043E", PrAT, Pr.A.T, Pr.A.T., !!python/str "\u041F\u0440\
+      \u0410\u0422", !!python/str "\u041F\u0440.\u0410.\u0422", !!python/str "\u041F\u0440\
+      .\u0410.\u0422."]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u0435 \u0410\u043A\
+    \u0446\u0456\u043E\u043D\u0435\u0440\u043D\u0435 \u0422\u043E\u0432\u0430\u0440\
+    \u0438\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u0435 \u041F\
+      \u0456\u0434\u043F\u0440\u0438\u0454\u043C\u0441\u0442\u0432\u043E", PP, P.P,
+    P.P., !!python/str "\u041F\u041F", !!python/str "\u041F.\u041F", !!python/str "\u041F\
+      .\u041F."]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u0435 \u041F\u0456\
+    \u0434\u043F\u0440\u0438\u0454\u043C\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\
+      \u0442\u0432\u0435\u043D\u043D\u044B\u0439 \u041A\u043E\u043E\u043F\u0435\u0440\
+      \u0430\u0442\u0438\u0432", !!python/str "\u041F\u0440\u041A", !!python/str "\u041F\u0440\
+      .\u041A", !!python/str "\u041F\u0440.\u041A."]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u041F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\
+    \u0432\u0435\u043D\u043D\u044B\u0439 \u041A\u043E\u043E\u043F\u0435\u0440\u0430\
+    \u0442\u0438\u0432"
+- abbreviations: [!!python/str "\u041F\u0440\u044B\u0432\u0430\u0442\u043D\u0430\u0435\
+      \ \u0423\u043D\u0456\u0442\u0430\u0440\u043D\u0430\u0435 \u041F\u0440\u0430\u0434\
+      \u043F\u0440\u044B\u0435\u043C\u0441\u0442\u0432\u0430", !!python/str "\u041F\u0423\
+      \u041F", !!python/str "\u041F.\u0423.\u041F", !!python/str "\u041F.\u0423.\u041F\
+      ."]
+  country: Belarus
+  language: Belarusian
+  name: !!python/str "\u041F\u0440\u044B\u0432\u0430\u0442\u043D\u0430\u0435 \u0423\
+    \u043D\u0456\u0442\u0430\u0440\u043D\u0430\u0435 \u041F\u0440\u0430\u0434\u043F\
+    \u0440\u044B\u0435\u043C\u0441\u0442\u0432\u0430"
+- abbreviations: [!!python/str "\u041F\u0443\u0431\u043B\u0456\u0447\u043D\u0435 \u0410\
+      \u043A\u0446\u0456\u043E\u043D\u0435\u0440\u043D\u0435 \u0422\u043E\u0432\u0430\
+      \u0440\u0438\u0441\u0442\u0432\u043E", PuAT, Pu.A.T, Pu.A.T., !!python/str "\u041F\u0443\
+      \u0410\u0422", !!python/str "\u041F\u0443.\u0410.\u0422", !!python/str "\u041F\u0443\
+      .\u0410.\u0422."]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u041F\u0443\u0431\u043B\u0456\u0447\u043D\u0435 \u0410\u043A\
+    \u0446\u0456\u043E\u043D\u0435\u0440\u043D\u0435 \u0422\u043E\u0432\u0430\u0440\
+    \u0438\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u0420\u0435\u043B\u0438\u0433\u0438\u043E\u0437\u043D\
+      \u043E\u0435 \u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u0435",
+    !!python/str "\u0420\u041E", !!python/str "\u0420.\u041E", !!python/str "\u0420\
+      .\u041E."]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u0420\u0435\u043B\u0438\u0433\u0438\u043E\u0437\u043D\u043E\
+    \u0435 \u041E\u0431\u044A\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u0435"
+- abbreviations: [!!python/str "\u0421\u044A\u0431\u0438\u0440\u0430\u0442\u0435\u043B\
+      \u043D\u043E \u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E", !!python/str "\u0421\u0414",
+    !!python/str "\u0421.\u0414", !!python/str "\u0421.\u0414."]
+  country: Bulgaria
+  language: Bulgarian
+  name: !!python/str "\u0421\u044A\u0431\u0438\u0440\u0430\u0442\u0435\u043B\u043D\
+    \u043E \u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u043E"
+- abbreviations: [!!python/str "\u0422\u0430\u0432\u0430\u0440\u044B\u0441\u0442\u0432\
+      \u0430 \u0417 \u0410\u0431\u043C\u0435\u0436\u0430\u0432\u0430\u043D\u0430\u0439\
+      \ \u0410\u0434\u043A\u0430\u0437\u043D\u0430\u0441\u0446\u044E", !!python/str "\u0422\u0410\
+      \u0410", !!python/str "\u0422.\u0410.\u0410", !!python/str "\u0422.\u0410.\u0410\
+      ."]
+  country: Belarus
+  language: Belarusian
+  name: !!python/str "\u0422\u0430\u0432\u0430\u0440\u044B\u0441\u0442\u0432\u0430\
+    \ \u0417 \u0410\u0431\u043C\u0435\u0436\u0430\u0432\u0430\u043D\u0430\u0439 \u0410\
+    \u0434\u043A\u0430\u0437\u043D\u0430\u0441\u0446\u044E"
+- abbreviations: [!!python/str "\u0422\u043E\u0432\u0430\u0440\u0438\u0441\u0442\u0432\
+      \u043E \u0417 \u0414\u043E\u0434\u0430\u0442\u043A\u043E\u0432\u043E\u044E \u0412\
+      \u0456\u0434\u043F\u043E\u0432\u0456\u0434\u0430\u043B\u044C\u043D\u0456\u0441\
+      \u0442\u044E", !!python/str "\u0422\u0414\u0412", !!python/str "\u0422.\u0414\
+      .\u0412", !!python/str "\u0422.\u0414.\u0412.", TOV, T.O.V, T.O.V.]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u0422\u043E\u0432\u0430\u0440\u0438\u0441\u0442\u0432\u043E\
+    \ \u0417 \u0414\u043E\u0434\u0430\u0442\u043A\u043E\u0432\u043E\u044E \u0412\u0456\
+    \u0434\u043F\u043E\u0432\u0456\u0434\u0430\u043B\u044C\u043D\u0456\u0441\u0442\
+    \u044E"
+- abbreviations: [!!python/str "\u0422\u043E\u0432\u0430\u0440\u0438\u0449\u0435\u0441\
+      \u0442\u0432\u043E \u0421 \u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\
+      \u043B\u044C\u043D\u043E\u0439 \u041E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\
+      \u0435\u043D\u043D\u043E\u0441\u0442\u044C\u044E", !!python/str "\u0422\u0414\
+      \u041E", !!python/str "\u0422.\u0414.\u041E", !!python/str "\u0422.\u0414.\u041E\
+      ."]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u0422\u043E\u0432\u0430\u0440\u0438\u0449\u0435\u0441\u0442\
+    \u0432\u043E \u0421 \u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\
+    \u044C\u043D\u043E\u0439 \u041E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\
+    \u043D\u043D\u043E\u0441\u0442\u044C\u044E"
+- abbreviations: [!!python/str "\u0422\u043E\u0432\u0430\u0440\u0438\u0449\u0435\u0441\
+      \u0442\u0432\u043E \u0421 \u041E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\
+      \u043D\u043E\u0439 \u041E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\
+      \u043D\u043E\u0441\u0442\u044C\u044E", !!python/str "\u0422\u041E\u041E", !!python/str "\u0422\
+      .\u041E.\u041E", !!python/str "\u0422.\u041E.\u041E."]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u0422\u043E\u0432\u0430\u0440\u0438\u0449\u0435\u0441\u0442\
+    \u0432\u043E \u0421 \u041E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043D\
+    \u043E\u0439 \u041E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\
+    \u043E\u0441\u0442\u044C\u044E"
+- abbreviations: [!!python/str "\u0423\u0447\u0440\u0435\u0436\u0434\u0435\u043D\u0438\
+      \u0435", !!python/str "\u0423\u0447\u0440", !!python/str "\u0423\u0447\u0440\
+      ."]
+  country: Kazakhstan
+  language: Russian
+  name: !!python/str "\u0423\u0447\u0440\u0435\u0436\u0434\u0435\u043D\u0438\u0435"
+- abbreviations: [!!python/str "\u0424\u0456\u0437\u0438\u0447\u043D\u0430 \u041E\u0441\
+      \u043E\u0431\u0430 \u041F\u0456\u0434\u043F\u0440\u0438\u0454\u043C\u0435\u0446\
+      \u044C", FOP, F.O.P, F.O.P., !!python/str "\u0424\u041E\u041F", !!python/str "\u0424\
+      .\u041E.\u041F", !!python/str "\u0424.\u041E.\u041F."]
+  country: Ukraine
+  language: Ukrainian
+  name: !!python/str "\u0424\u0456\u0437\u0438\u0447\u043D\u0430 \u041E\u0441\u043E\
+    \u0431\u0430 \u041F\u0456\u0434\u043F\u0440\u0438\u0454\u043C\u0435\u0446\u044C"
+- abbreviations: [Holdings, Hldgs]
+  country: Global
+  language: English
+  name: Holdings
+- abbreviations: [Holding, Hldg]
+  country: Global
+  language: English
+  name: Holding
+- abbreviations: [Global Limited]
+  country: Global
+  language: English
+  name: Global Limited
+- abbreviations: [Group, GRP, GRP.]
+  country: Global
+  language: English
+  name: Group
+- abbreviations: [ESP, E.S.P, E.S.P.]
+  country: Spain
+  language: Spainish
+  name: ESP
+- abbreviations: ['ON', O.N, O.N.]
+  country: Germany
+  language: German
+  name: 'ON'
+- abbreviations: [Allgemeine Anlageverwaltung, ALLG ANL VERW, ALLG ANL.VERW, ALLG.ANL.VERW]
+  country: Germany
+  language: German
+  name: Allgemeine Anlageverwaltung
+- abbreviations: [AG VNA]
+  country: Germany
+  language: German
+  name: AG VNA
+- abbreviations: [Group Holding, Group Hldgs]
+  country: Global
+  language: English
+  name: Group Holding
+- abbreviations: [Group Holdings, Group Hldg]
+  country: Global
+  language: English
+  name: Group Holdings
+- abbreviations: [Partners]
+  country: Global
+  language: English
+  name: Partners
+- abbreviations: [Partner]
+  country: Global
+  language: English
+  name: Partner
+- abbreviations: [Anonim Sirketi]
+  country: Turkey
+  language: Turkish
+  name: Anonim Sirketi
+- abbreviations: [TAS, T.A.S, T.A.S.]
+  country: Turkey
+  language: Turkish
+  name: TAS
+- abbreviations: [Holdings Company, Holdings Co, Holdings Co.]
+  country: Global
+  language: English
+  name: Holdings Company
+- abbreviations: [Corporation AG, Corporation A.G, Corporation A.G., Corp AG, Corp
+      A.G, Corp A.G., Corp. AG, Corp. A.G, Corp. A.G., COR.AG]
+  country: Global
+  language: English
+  name: Corporation AG
+- abbreviations: [Holding Group]
+  country: Global
+  language: English
+  name: Holding Group
+- abbreviations: [RE, R.E, R.E.]
+  country: Global
+  language: French
+  name: RE
+- abbreviations: [AG IA, AG I.A, AG I.A.]
+  country: Global
+  language: German
+  name: AG IA
+- abbreviations: [Inhaber-Stammaktien ON, INH ON, INH O.N, INH O.N., INH. ON, INH.
+      O.N, INH. O.N.]
+  country: Global
+  language: German
+  name: Inhaber Stammaktien ON
+- abbreviations: [Public Limited]
+  country: Global
+  language: English
+  name: Public Limited
+- abbreviations: [ST ON, ST O.N, ST O.N.]
+  country: Global
+  language: German
+  name: ST ON
+- abbreviations: [VZO ON, VZO O.N, VZO O.N.]
+  country: Global
+  language: German
+  name: VZO ON
+- abbreviations: [SAB de C.V, SAB de C.V., S.AB de CV, S.AB de C.V, S.AB de C.V.,
+    S.A.B de CV, S.A.B de C.V, S.A.B de C.V., S.A.B. de CV, S.A.B. de C.V, S.A.B.
+      de C.V., S. A. B. de C. V.]
+  country: Global
+  language: Mexican
+  name: SAB de CV
+- abbreviations: [VNA O.N, VNA O.N., V.NA ON, V.NA O.N, V.NA O.N., V.N.A ON, V.N.A
+      O.N, V.N.A O.N., V.N.A. O.N, V.N.A. O.N.]
+  country: Global
+  language: German
+  name: VNA ON
+- abbreviations: []
+  country: Global
+  language: English
+  name: Association
+- abbreviations: [Sirketi]
+  country: Global
+  language: Turkish
+  name: Sirketi
+- abbreviations: [TBK, T.B.K, T.B.K.]
+  country: Indonesia
+  language: Indonesian
+  name: TBK
+- abbreviations: []
+  country: Global
+  language: English
+  name: Enterprise
+- abbreviations: []
+  country: Global
+  language: English
+  name: Enterprises
+- abbreviations: [NA ON, NA O.N, NA O.N., N.A ON, N.A O.N, N.A O.N., N.A. O.N, N.A.
+      O.N.]
+  country: Global
+  language: German
+  name: NA ON
+- abbreviations: [SAPIB de CV, S.A.P.I.B de C.V, S.A.P.I.B. de C.V.]
+  country: Global
+  language: German
+  name: SAPIB de CV
+- abbreviations: [Kompagni]
+  country: Global
+  language: Danish
+  name: Kompagni
+- abbreviations: [Inhaber-Stammaktien O.N.]
+  country: Global
+  language: German
+  name: Inhaber Stammaktien ON
+- abbreviations: [Company Holdings]
+  country: Global
+  language: English
+  name: Company Holdings
+- abbreviations: [Company Holding]
+  country: Global
+  language: English
+  name: Company Holding
+- abbreviations: [(publ)]
+  country: Global
+  language: English
+  name: publ

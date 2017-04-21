@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}Following's score{% endblock %}
+{% block customhead %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/card.css') }}"/>
+{% endblock %}
+{% block content %}
+<div class="container">
+    <!-- First row -->
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Twitter ID:</h3>
+                </div>
+
+                <form class="following-score" action="score" method="post" name="login">
+                    <input type="text" name="user_id" id="user_id" class="form-control" placeholder="{{input_id}}" required autofocus>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Score</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Second row -->
+    <div class="row">
+        <html>
+            <head>
+                <script type="text/javascript"
+                        src="https://www.google.com/jsapi?autoload={
+                    'modules':[{
+                        'name':'visualization',
+                        'version':'1',
+                        'packages':['corechart']
+                    }]
+                  }">
+
+                </script>
+
+                <script type="text/javascript">
+                google.setOnLoadCallback(drawChart);
+
+                function drawChart() {
+                    var data = google.visualization.arrayToDataTable({{following_score|safe}});
+
+                    var options = {
+                        title: 'Following\'s scores',
+                        curveType: 'function',
+                        legend: { position: 'bottom' }
+                    };
+
+                    var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+                    chart.draw(data, options);
+                }
+
+                </script>
+            </head>
+        <body>
+        <div id="curve_chart" style="width: 700px; height: 400px"></div>
+        </body>
+        </html>
+    </div>
+</div>
+{% endblock %}
+
+{% block loadscripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/responsive-tables.js') }}"></script>
+{% endblock %}

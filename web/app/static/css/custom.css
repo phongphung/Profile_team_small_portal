@@ -1,0 +1,84 @@
+.panel-body {
+  padding: @panel-body-padding;
+  &:extend(.clearfix all);
+  font-size: 400%;
+  text-align: center;
+}
+
+body { padding-top: 70px; }
+
+body.application div[class^="col-"] {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body.application {
+  background-color: #6891A2;
+  /*background: url(http://subtlepatterns.com/patterns/purty_wood.png);
+  background: url(http://subtlepatterns.com/patterns/retina_wood.png);*/
+}
+
+/*.brand {height: 50px;}*/
+
+.badge {
+  font-size: 75%;
+  padding: 3px 5px;
+
+}
+
+.h3 {
+  line-height: 1.25;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.odometer {
+  font-family: inherit;
+}
+
+.highest {
+  font-weight: bold;
+  font-size: 105%;
+  color: darkblue;
+}
+
+.thumbnail {
+
+}
+
+.filterable {
+    margin-top: 15px;
+}
+
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+
+.myhighlight {
+  font-weight: bold;
+  font-size: 105%;
+  background: yellow;
+}
+

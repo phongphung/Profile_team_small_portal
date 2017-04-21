@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Gnip generator{% endblock %}
+{% block customhead %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/card.css') }}"/>
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        {% if show_upload %}
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="card">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <input id="input" class="form-control" type="file" name="file" class="file">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        {% endif %}
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8">
+            <div class="card">
+                <p>{{request_info|safe}}</p>
+                {% if date %}
+                <strong>Do you want?</strong>
+                    <form method="post" class="form-group">
+                        <input class="btn btn-default" type="submit" name="action" value="post">
+                        <input class="btn btn-default" type="submit" name="action" value="delete">
+                    </form>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <strong>{{date}}</strong>
+        {% if json %}
+            <div class="card">
+                {{json|safe}}
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,251 @@
+__author__ = 'sunary'
+
+from scrapy.contrib.spiders.init import InitSpider
+from scrapy.http import Request, FormRequest
+from scrapy.selector import HtmlXPathSelector
+from pymongo import MongoClient
+import pandas as pd
+import math
+import re
+
+
+class Mongodb():
+    client = None
+    rel_coll = None
+
+    def __init__(self, host='localhost', port=27017, db=None, col=None):
+        self._client = MongoClient(host, port)
+        self._db = self._client[db]
+        self.name_col = col
+        self.rel_coll = self._db[col]
+
+    def refresh_collection(self):
+        self.rel_coll.drop()
+        self.rel_coll = self._db[self.name_col]
+
+
+class AutoRobot(InitSpider):
+    name = 'investor_relations'
+    start_urls = []
+    wish_list_link = ['investor']
+    wish_list_word = ['@']
+    wish_list_syntax = ['/', '?']
+    pattern = ''
+    count = 0
+    count1 = 0
+
+    list_investor_id = []
+    list_investor_website = []
+
+    REGEX_NAME = '.*?([A-Z][\w\.\-\']+ [A-Z][\w\.\-\']+.*)'
+    REGEX_EMAIL = '.*?([\d\w_\.]+\@[\d\w_\.]+).*'
+    REGEX_TEL = '.*?(\+?(\(\+?\d+\))?\d+[\d\s\-]*\d{2,}).*'
+
+    def init_links(self):
+        pd_file = pd.read_csv('/home/sunary/data_report/2015mar24_bloomberg_mapping_40k_all.csv')
+        self.list_investor_id = pd_file['item_id']
+        self.list_investor_website = list_urls = pd_file['website']
+        list_urls = set(list_urls)
+        for url in list_urls:
+            if len(str(url)) > 3:
+                self.start_urls.append(str(url))
+
+        print len(self.start_urls)
+        # self.start_urls =  self.start_urls[0:1]
+        # self.start_urls = self.start_urls[0:100]
+        # print self.start_urls
+
+    def __init__(self):
+        self.init_links()
+        self.init_mongodb()
+
+    def init_mongodb(self, *args):
+        self.mongodb_save = Mongodb(host='localhost',
+                                            db='investor_relation_data',
+                                            col='investor')
+
+    def parse(self, response):
+        """
+        default parse method, rule is not useful now
+        """
+        domain = self.get_domain(response.url)
+        hxs = HtmlXPathSelector(response)
+
+        links_investor = hxs.select('//a/@href').extract()
+        for link in list(set(links_investor)):
+            # Get domain
+            if self.determine_next(link):
+                if re.match('^http', link):
+                    yield Request(link, callback=self.parse_contact)
+                else:
+                    # yield Request(domain + link, callback=self.parse)
+                    yield Request(domain + link, callback=self.parse2)
+    def parse2(self, response):
+        """
+        default parse method, rule is not useful now
+        """
+        domain = self.get_domain(response.url)
+        hxs = HtmlXPathSelector(response)
+
+        links_investor = hxs.select('//a/@href').extract()
+        for link in list(set(links_investor)):
+            # Get domain
+            if self.determine_next(link):
+                if re.match('^http', link):
+                    yield Request(link, callback=self.parse_contact)
+                else:
+                    # yield Request(domain + link, callback=self.parse)
+                    yield Request(domain + link, callback=self.parse_contact)
+
+    def get_domain(self, link):
+        regex = re.match('(https?:\/\/.+)\/.+', link)
+        if regex:
+            return regex.group(1)
+        else:
+            return link
+
+
+    def parse_contact(self, response):
+
+        hxs = HtmlXPathSelector(response)
+        title = ''.join(hxs.select('//title/text()').extract())
+        all_text = hxs.select('//div/text() | //p/text() | //p/a/text()').extract()
+
+        len_list_text = len(all_text)
+        index_text = 0
+        while index_text < len_list_text:
+            # all_text[i] = all_text[i].encode('utf-8')
+            regex = re.match('^\s*$', all_text[index_text])
+            if regex:
+                del all_text[index_text]
+                index_text -= 1
+                len_list_text -= 1
+            else:
+                all_text[index_text] = re.sub('\s+', ' ', all_text[index_text])
+            index_text += 1
+
+        Name = ''
+        Email = ''
+        Tel = ''
+        count_by_email = 0
+        count_by_tel = 0
+        list_regex_email = []
+        list_regex_tel = []
+        for index_text in range(len(all_text)):
+            regex_email = re.match(self.REGEX_EMAIL, all_text[index_text])
+            if regex_email:
+                count_by_email += 1
+                list_regex_email.append(index_text)
+
+            regex_tel = re.match(self.REGEX_TEL, all_text[index_text])
+            if regex_tel:
+                count_by_tel += 1
+                list_regex_tel.append(index_text)
+
+        if count_by_email + count_by_tel == 0:
+            return
+
+        if count_by_email > count_by_tel:
+            for index_regex in list_regex_email:
+                max_nem_id = index_regex
+                regex_email = re.match(self.REGEX_EMAIL, all_text[max_nem_id])
+                Email = regex_email.group(1)
+                Tel = ''
+
+                #regex tel
+                if max_nem_id + 1 in list_regex_tel:
+                    regex_tel = re.match(self.REGEX_TEL, all_text[max_nem_id + 1])
+                    Tel = regex_tel.group(1)
+                elif max_nem_id + 2 in list_regex_tel:
+                    regex_tel = re.match(self.REGEX_TEL, all_text[max_nem_id + 2])
+                    Tel = regex_tel.group(1)
+                elif max_nem_id - 1 in list_regex_tel:
+                    regex_tel = re.match(self.REGEX_TEL, all_text[max_nem_id - 1])
+                    Tel = regex_tel.group(1)
+                    max_nem_id -= 1
+                elif max_nem_id - 2 in list_regex_tel:
+                    regex_tel = re.match(self.REGEX_TEL, all_text[max_nem_id - 2])
+                    Tel = regex_tel.group(1)
+                    max_nem_id -= 2
+
+                #regex name
+                regex_name = re.match(self.REGEX_NAME, all_text[max_nem_id - 1])
+                if len(all_text[max_nem_id - 1]) > 4 and len(all_text[max_nem_id - 1]) < 30 and regex_name:
+                    Name = regex_name.group(1)
+                else:
+                    regex_name = re.match(self.REGEX_NAME, all_text[max_nem_id - 2])
+                    if len(all_text[max_nem_id - 2]) > 4 and len(all_text[max_nem_id - 2]) < 30 and regex_name:
+                        Name = regex_name.group(1)
+
+                if Name:
+                    condition = {'name': Name,
+                            'email': Email,
+                            'tel': Tel}
+                    data = {'website':response.url,
+                            'title': title,
+                            'name': Name,
+                            'email': Email,
+                            'tel': Tel}
+                    if self.mongodb_save.rel_coll.find(condition).count() <= 0:
+                            self.mongodb_save.rel_coll.insert(data)
+
+
+            pass
+        else:
+            for index_regex in list_regex_tel:
+                max_nem_id = index_regex
+                regex_tel = re.match(self.REGEX_TEL, all_text[max_nem_id])
+                Tel = regex_tel.group(1)
+                Email = ''
+
+                #regex email
+                if max_nem_id + 1 in list_regex_email:
+                    regex_email = re.match(self.REGEX_EMAIL, all_text[max_nem_id + 1])
+                    Email = regex_email.group(1)
+                elif max_nem_id + 2 in list_regex_email:
+                    regex_email = re.match(self.REGEX_EMAIL, all_text[max_nem_id + 2])
+                    Email = regex_email.group(1)
+                elif max_nem_id - 1 in list_regex_email:
+                    regex_email = re.match(self.REGEX_EMAIL, all_text[max_nem_id - 1])
+                    Email = regex_email.group(1)
+                    max_nem_id -= 1
+                elif max_nem_id - 2 in list_regex_email:
+                    regex_email = re.match(self.REGEX_EMAIL, all_text[max_nem_id - 2])
+                    Email = regex_email.group(1)
+                    max_nem_id -= 2
+
+                #regex name
+                regex_name = re.match(self.REGEX_NAME, all_text[max_nem_id - 1])
+                if len(all_text[max_nem_id - 1]) > 4 and len(all_text[max_nem_id - 1]) < 30 and regex_name:
+                    regex_name.group(1)
+                else:
+                    regex_name = re.match(self.REGEX_NAME, all_text[max_nem_id - 2])
+                    if len(all_text[max_nem_id - 2]) > 4 and len(all_text[max_nem_id - 2]) < 30 and regex_name:
+                        regex_name.group(1)
+
+                if Name:
+                    condition = {'name': Name,
+                            'email': Email,
+                            'tel': Tel}
+                    data = {'website':response.url,
+                            'title': title,
+                            'name': Name,
+                            'email': Email,
+                            'tel': Tel}
+                    if self.mongodb_save.rel_coll.find(condition).count() <= 0:
+                            self.mongodb_save.rel_coll.insert(data)
+            pass
+
+
+    @staticmethod
+    def extract_name(text):
+        return text
+
+    @staticmethod
+    def extract_mail(text):
+        return text
+
+    def determine_next(self, full_link):
+        if any(word in full_link for word in self.wish_list_link):
+            return 1
+        return 0

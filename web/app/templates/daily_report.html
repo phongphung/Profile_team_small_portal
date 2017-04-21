@@ -1,0 +1,495 @@
+{% extends "base.html" %}
+{% block title %}Daily Report{% endblock %}
+
+{% block content %}
+<div class="container">
+
+    <!-- 1st row -->
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Messages Report</h3>
+                    <h3 class="panel-title pull-right">{{date}}</h3>
+                </div>
+
+                <table class="responsive table table-hover">
+                    <thead>
+                    <tr>
+                        <th>Fields</th>
+                        <th>Number</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td style= "color: blue">
+                            Historical tweets to processing queue (Orange flow)
+                        </td>
+                        <td>
+                            {{"{:,}".format(message_orange_flow[0])}}
+                            {% if message_orange_flow[0] > message_orange_flow[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(message_orange_flow[0] - message_orange_flow[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(message_orange_flow[0] - message_orange_flow[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style= "color: red">
+                            Daily number of tweets from candidates for processing (Message in queue)
+                        </td>
+                        <td>
+                            {{"{:,}".format(message_in_queue[0])}}
+                            {% if message_in_queue[0] > message_in_queue[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(message_in_queue[0] - message_in_queue[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(message_in_queue[0] - message_in_queue[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style= "color: orange">
+                            Daily no. of tweets from candidates processed (Messages processed)
+                        </td>
+                        <td>
+                            {{"{:,}".format(message_processed[0])}}
+                            {% if message_processed[0] > message_processed[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(message_processed[0] - message_processed[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(message_processed[0] - message_processed[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Total number of candidates of processed tweets
+                        </td>
+                        <td>
+                            {{"{:,}".format(message_total_candidates[0])}}
+                            {% if message_total_candidates[0] > message_total_candidates[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(message_total_candidates[0] - message_total_candidates[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(message_total_candidates[0] - message_total_candidates[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Tweet processed in flows</h3>
+                </div>
+                <html>
+                <head>
+                    <script type="text/javascript"
+                            src="https://www.google.com/jsapi?autoload={
+                            'modules':[{
+                              'name':'visualization',
+                              'version':'1',
+                              'packages':['corechart']
+                            }]
+                          }">
+                    </script>
+                    <script type="text/javascript">
+                      google.setOnLoadCallback(drawChart);
+
+                      function drawChart() {
+                        var data = google.visualization.arrayToDataTable([
+                          ['Day', 'Orange flow', 'Message in queue', 'Messages processed'],
+                          ['{{date_chart[6]}}',  {{message_orange_flow[6]}},      {{message_in_queue[6]}}, {{message_processed[6]}}],
+                          ['{{date_chart[5]}}',  {{message_orange_flow[5]}},      {{message_in_queue[5]}}, {{message_processed[5]}}],
+                          ['{{date_chart[4]}}',  {{message_orange_flow[4]}},       {{message_in_queue[4]}}, {{message_processed[4]}}],
+                          ['{{date_chart[3]}}',  {{message_orange_flow[3]}},       {{message_in_queue[3]}}, {{message_processed[3]}}],
+                          ['{{date_chart[2]}}',  {{message_orange_flow[2]}},       {{message_in_queue[2]}}, {{message_processed[2]}}],
+                          ['{{date_chart[1]}}',  {{message_orange_flow[1]}},       {{message_in_queue[1]}}, {{message_processed[1]}}],
+                          ['{{date_chart[0]}}',  {{message_orange_flow[0]}},      {{message_in_queue[0]}}, {{message_processed[0]}}]
+                        ]);
+
+                        var options = {
+                          title: '',
+                          curveType: 'function',
+                          legend: { position: 'bottom' }
+                        };
+
+                        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+                        chart.draw(data, options);
+                      }
+                    </script>
+                </head>
+                <body>
+                <div id="curve_chart" style="width: 650px; height: 300px"></div>
+                </body>
+                </html>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2nd row -->
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Qualified report</h3>
+                </div>
+
+                <table class="responsive table table-hover">
+                    <thead>
+                    <tr>
+                        <th>Fields</th>
+                        <th>Number</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            Total Candidates
+                        </td>
+                        <td>
+                            {{"{:,}".format(publisher_total_candidates[0])}}
+                            {% if publisher_total_candidates[0] > publisher_total_candidates[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(publisher_total_candidates[0] - publisher_total_candidates[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(publisher_total_candidates[0] - publisher_total_candidates[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Total processed
+                        </td>
+                        <td>
+                            {{"{:,}".format(publisher_total_processed[0])}}
+                            {% if publisher_total_processed[0] > publisher_total_processed[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(publisher_total_processed[0] - publisher_total_processed[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(publisher_total_processed[0] - publisher_total_processed[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Total exported
+                        </td>
+                        <td>
+                            {{"{:,}".format(publisher_total_exported[0])}}
+                            {% if publisher_total_exported[0] > publisher_total_exported[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(publisher_total_exported[0] - publisher_total_exported[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(publisher_total_exported[0] - publisher_total_exported[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Classified
+                        </td>
+                        <td>
+                            {{"{:,}".format(publisher_total_classified[0])}}
+                            {% if publisher_total_classified[0] > publisher_total_classified[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(publisher_total_classified[0] - publisher_total_classified[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(publisher_total_classified[0] - publisher_total_classified[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Qualified
+                        </td>
+                        <td>
+                            {{"{:,}".format(publisher_total_qualified[0])}}
+                            {% if publisher_total_qualified[0] > publisher_total_qualified[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(publisher_total_qualified[0] - publisher_total_qualified[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(publisher_total_qualified[0] - publisher_total_qualified[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Disqualified
+                        </td>
+                        <td>
+                            {{"{:,}".format(publisher_total_disqualified[0])}}
+                            {% if publisher_total_disqualified[0] > publisher_total_disqualified[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(publisher_total_disqualified[0] - publisher_total_disqualified[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(publisher_total_disqualified[0] - publisher_total_disqualified[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Qualifying methods</h3>
+                </div>
+
+                <table class="responsive table table-hover">
+                    <thead>
+                    <tr>
+                        <th>Methods</th>
+                        <th>Count</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for method in qualifying_method_table %}
+                    <tr>
+                        <td>
+                            {{ method['method_name'] }}
+                        </td>
+                        <td>
+                            {{ "{:,}".format(method['count']) }}
+                            {% if method['count'] > method['old'] %}
+                                <h6 style= "color: green">+{{"{:,}".format(method['count'] - method['old'])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(method['count'] - method['old'])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Qualifying methods</h3>
+                </div>
+                <html>
+                <head>
+                    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+                    <script type="text/javascript">
+                      google.load("visualization", "1", {packages:["corechart"]});
+                      google.setOnLoadCallback(drawChart);
+                      function drawChart() {
+
+                        var data = google.visualization.arrayToDataTable({{qualifying_method_chart|safe}});
+
+                        var options = {
+                          title: ''
+                        };
+
+                        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+                        chart.draw(data, options);
+                      }
+                    </script>
+                </head>
+                <body>
+                <div id="piechart" style="width: 400px; height: 300px;"></div>
+                </body>
+                </html>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3rd row -->
+    <div class="row">
+        <div class="col-lg-8 col-sm-12 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Cummulative breakdown of statuses by sources</h3>
+                </div>
+                <table class="responsive table table-hover table-highlight">
+                    <thead>
+                    <tr>
+                        <th>Measurement</th>
+                        <th>Disqualified</th>
+                        <th>Lack messages</th>
+                        <th>Qualified by CR</th>
+                        <th>Qualified by Mentions</th>
+                        <th>Total Qualified</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="col-lg-2">
+                            Gnip
+                        </td>
+                        {% for i in range(gnip_breakdown[0:5]|length) %}
+                        <td class="col-lg-2">
+                            {{ "{:,}".format(gnip_breakdown[i]) }}
+                            {% if gnip_breakdown[i] > gnip_breakdown[i + 5] %}
+                                <h6 style= "color: green">+{{"{:,}".format(gnip_breakdown[i] - gnip_breakdown[i + 5])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(gnip_breakdown[i] - gnip_breakdown[i + 5])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>
+                            Stream
+                        </td>
+                        {% for i in range(stream_breakdown[0:5]|length) %}
+                        <td class="col-lg-2">
+                            {{ "{:,}".format(stream_breakdown[i]) }}
+                            {% if gnip_breakdown[i] > gnip_breakdown[i + 5] %}
+                                <h6 style= "color: green">+{{"{:,}".format(stream_breakdown[i] - stream_breakdown[i + 5])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(stream_breakdown[i] - stream_breakdown[i + 5])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>
+                            Seed
+                        </td>
+                        {% for i in range(seed_breakdown[0:5]|length) %}
+                        <td class="col-lg-2">
+                            {{ "{:,}".format(seed_breakdown[i]) }}
+                            {% if gnip_breakdown[i] > gnip_breakdown[i + 5] %}
+                                <h6 style= "color: green">+{{"{:,}".format(seed_breakdown[i] - seed_breakdown[i + 5])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(seed_breakdown[i] - seed_breakdown[i + 5])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        <td>
+                            Mention
+                        </td>
+                        {% for i in range(mention_breakdown[0:5]|length) %}
+                        <td class="col-lg-2">
+                            {{ "{:,}".format(mention_breakdown[i]) }}
+                            {% if mention_breakdown[i] > mention_breakdown[i + 5] %}
+                                <h6 style= "color: green">+{{"{:,}".format(mention_breakdown[i] - mention_breakdown[i + 5])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(mention_breakdown[i] - mention_breakdown[i + 5])}}</h6>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Change Profile</h3>
+                </div>
+
+                <table class="responsive table table-hover">
+                    <thead>
+                    <tr>
+                        <th>Fields</th>
+                        <th>Number</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            Change Description
+                        </td>
+                        <td>
+                            {{"{:,}".format(profile_change_des[0])}}
+                            {% if profile_change_des[0] > profile_change_des[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(profile_change_des[0] - profile_change_des[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(profile_change_des[0] - profile_change_des[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Change Avatar
+                        </td>
+                        <td>
+                            {{"{:,}".format(profile_change_avatar[0])}}
+                            {% if profile_change_avatar[0] > profile_change_avatar[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(profile_change_avatar[0] - profile_change_avatar[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(profile_change_avatar[0] - profile_change_avatar[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Change Location
+                        </td>
+                        <td>
+                            {{"{:,}".format(profile_change_loc[0])}}
+                            {% if profile_change_loc[0] > profile_change_loc[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(profile_change_loc[0] - profile_change_loc[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(profile_change_loc[0] - profile_change_loc[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Change Name
+                        </td>
+                        <td>
+                            {{"{:,}".format(profile_change_name[0])}}
+                            {% if profile_change_name[0] > profile_change_name[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(profile_change_name[0] - profile_change_name[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(profile_change_name[0] - profile_change_name[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Change URL
+                        </td>
+                        <td>
+                            {{"{:,}".format(profile_change_url[0])}}
+                            {% if profile_change_url[0] > profile_change_url[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(profile_change_url[0] - profile_change_url[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(profile_change_url[0] - profile_change_url[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Change any of above
+                        </td>
+                        <td>
+                            {{"{:,}".format(profile_change_any[0])}}
+                            {% if profile_change_any[0] > profile_change_any[1] %}
+                                <h6 style= "color: green">+{{"{:,}".format(profile_change_any[0] - profile_change_any[1])}}</h6>
+                            {% else %}
+                                <h6 style= "color: red">{{"{:,}".format(profile_change_any[0] - profile_change_any[1])}}</h6>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block loadscripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/responsive-tables.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Score{% endblock %}
+{% block customhead %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/card.css') }}"/>
+{% endblock %}
+{% block content %}
+<div class="container">
+    <!-- First row -->
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Twitter ID:</h3>
+                </div>
+
+                <form class="following-score" action="score" method="post" name="login">
+                    <input type="text" name="user_id" id="user_id" class="form-control" placeholder="" required
+                           autofocus>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Score</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block loadscripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/responsive-tables.js') }}"></script>
+{% endblock %}

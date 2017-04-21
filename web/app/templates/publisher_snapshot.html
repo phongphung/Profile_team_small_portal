@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}Publsiher Snapshot{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- First row -->
+    <div class="row">
+        <div class="col-lg-12 col-sm-12 col-xs-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left">Publisher Snapshot</h3>
+
+                    <h3 class="panel-title pull-right">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                        Week <span class="badge badge-warning">{{week}}</span>
+                        Year <span class="badge badge-warning">{{year}}</span>
+                    </h3>
+                </div>
+                <table class="responsive table table-hover table-highlight">
+                    <thead>
+                    <tr>
+                        <th>Categories</th>
+                        <th>publisher_count</th>
+                        <th>tw_count</th>
+                        <th>li_count</th>
+                        <th>news_count</th>
+                        <th>other_count</th>
+                        <th>au_count</th>
+                        <th>ca_count</th>
+                        <th>ch_count</th>
+                        <th>cn_count</th>
+                        <th>de_count</th>
+                        <th>gb_count</th>
+                        <th>hk_count</th>
+                        <th>in_count</th>
+                        <th>sa_count</th>
+                        <th>sg_count</th>
+                        <th>us_count</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for i in range(categories|length) %}
+                    <tr>
+                        <td class="col-lg-4">
+                            {{categories[i]}}
+                        </td>
+                        {% for item in publisher_snapshot[i] %}
+                        <td class="col-lg-1">{{"{:,}".format(item)}}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block loadscripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/responsive-tables.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,60 @@
+# -*- coding: utf-8 -*-
+__author__ = 'sunary'
+
+import re
+import pandas as pd
+
+from scrapy.spider import BaseSpider
+from scrapy.selector import HtmlXPathSelector
+
+from util.connection_util import Mongodb
+
+
+class AutoRobot(BaseSpider):
+        name = "linguee_crawling"
+
+        start_urls = []
+        mongodb_save = None
+        DOWNLOAD_DELAY = 1
+
+
+        def init_urls(self):
+            self.start_urls = []
+            pd_file = pd.read_csv('/home/sunary/data_report/Nhat_wrongdoing_crawl.csv')
+            for word in pd_file['English']:
+                self.start_urls.append('http://www.linguee.com/english-german/search?source=auto&query=' + word.replace(' ', '+'))
+
+
+        def init_request(self):
+            """This function is called before crawling starts."""
+            # return Request(url=self.login_page, callback=self.login)
+            pass
+
+        def init_mongodb(self, *args):
+            self.mongodb_save = Mongodb(host='localhost', db='linguee', col='list4')
+
+        def __init__(self, *arg):
+            self.init_mongodb()
+            self.init_urls()
+            #self.init_request()
+
+        def parse(self, response):
+            hxs = HtmlXPathSelector(response)
+            need_tran = hxs.select("//title//text()").extract()
+            tag_trans = hxs.select("//span[@class='tag_trans']").extract()
+
+            word = need_tran[0].split(' - ')[0]
+            meaning = ''
+            for tag in tag_trans:
+                find_all = re.findall(u'>[^<]+<', tag)
+                meaning += find_all[0][1:-1]
+                tag_type = ''
+                for t in find_all[1:]:
+                    if t != '> <':
+                        tag_type = t[1:-1]
+                meaning += '-' + tag_type + ','
+            if self.mongodb_save.rel_coll.count({'word': word}) <= 0:
+                self.mongodb_save.rel_coll.insert({'word': word, 'meaning': meaning})
+
+
+

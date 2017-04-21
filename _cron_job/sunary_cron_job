@@ -1,0 +1,13 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
+MAILTO=sentifi
+HOME=/home/nhat.vo/
+PYTHONPATH=/home/nhat.vo/
+0 0 * * * nhat.vo /home/nhat.vo/sunary-tool/_cron_job/run_daily_report.sh
+50 23 * * * nhat.vo /home/nhat.vo/sunary-tool/_cron_job/run_daily_read_redis.sh
+0 0 * * 4 nhat.vo /home/nhat.vo/sunary-tool/_cron_job/run_check_twitter_avatar.sh
+0 0 * * 0 nhat.vo /home/nhat.vo/sunary-tool/_cron_job/run_check_new_blog_avatar.sh
+0 0 * * 0 nhat.vo /home/nhat.vo/sunary-tool/_cron_job/run_crawl_top_rank.sh
+0 0 * * 0 nhat.vo /home/nhat.vo/sunary-tool/_cron_job/run_publisher_classified.sh
+0 0 * * 6 nhat.vo /home/nhat.vo/sunary-tool/_cron_job/run_weekly_source_report.sh
+0 0 * * 5 nhat.vo /home/nhat.vo/sunary-tool/_cron_job/run_weekly_publisher_report.sh

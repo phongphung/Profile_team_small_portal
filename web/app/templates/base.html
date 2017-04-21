@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block head %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive-tables.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/custom.css') }}"/>
+    <link rel='shortcut icon' href="http://sentifi.com/images/favicon.ico">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <title>{% block title %}{% endblock %} - Sunary Tool</title>
+    {% endblock %}
+    {% block customhead %}
+    {% endblock %}
+</head>
+<body class="application">
+{% block loadscripts %}
+{% endblock %}
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <!-- <div class="navbar-header page_scroll"> -->
+        {% block custombrand %}
+        <div class="navbar-brand page_scroll">
+
+        </div>
+        {% endblock %}
+
+        {% block customnavbar %}
+        <ul class="nav navbar-nav" role="navigation" style="background-color: #383838;">
+            <li>
+                <a href="/">Sunary Tool</a>
+            </li>
+        </ul>
+        {% endblock %}
+
+    </div>
+</div>
+<div id="content">{% block content %}{% endblock %}</div>
+<footer class="footer"></footer>
+<div class="footer">
+    <div class="container">
+        {% block footer %}
+        <p class="large text-muted" style="padding: 30px">
+            Built with <span class="glyphicon glyphicon-heart">flask, jinja2, bootstrap</span> by
+            <a href="https://www.sentifi.com">Sunary</a>
+        </p>
+        {% endblock %}
+    </div>
+</div>
+</body>
+</html>

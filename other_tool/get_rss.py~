@@ -1,0 +1,34 @@
+__author__ = 'sunary'
+
+class GetRSS():
+
+    def __init__(self):
+        pass
+
+    def get_rss_investor(self):
+        import urllib2
+        from xml.etree import ElementTree as etree
+        #reddit parse
+        reddit_file = urllib2.urlopen('http://www.reddit.com/r/videos/top/.rss')
+        #convert to string:
+        reddit_data = reddit_file.read()
+        print reddit_data
+        #close file because we dont need it anymore:
+        reddit_file.close()
+
+        #entire feed
+        reddit_root = etree.fromstring(reddit_data)
+        item = reddit_root.findall('channel/item')
+        # print item
+
+        reddit_feed=[]
+        for entry in item:
+            #get description, url, and thumbnail
+            desc = entry.findtext('description')
+            print desc
+            reddit_feed.append([desc])
+        pass
+
+if __name__ == "__main__":
+    get_rss = GetRSS()
+    get_rss.get_rss_investor()

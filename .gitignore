@@ -1,0 +1,12 @@
+.idea
+*.pyc
+src/*
+env/*
+build/*
+dist/*
+sunary_tool.egg-info/*
+web/upload
+*.csv
+web/run.py
+fabfile.py
+requirements.txt

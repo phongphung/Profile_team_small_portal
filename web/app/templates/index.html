@@ -1,0 +1,223 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block customhead %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/card.css') }}"/>
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/daily.jpg') }}">
+                <br>
+                <!-- <img class="img-thumbnail" src="http://placehold.it/500x250/EEE"> -->
+                <a href="/daily_report">
+                    <div class="caption">
+                        <h4>
+                            <strong>Daily report</strong> <span class="glyphicon glyphicon-dashboard"></span>
+                        </h4>
+                        <p>Twitter crawlers, Publisher Qualification & Classification</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/weekly.jpg') }}">
+                <br>
+                <a href="/weekly_report">
+                    <div class="caption">
+                        <h4>
+                            <strong>Weekly report</strong> <span class="glyphicon glyphicon-user"></span>
+                        </h4>
+
+                        <p>Publisher Candidates Inventory, Breakdown of statuses</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/snapshot.png') }}">
+                <br>
+                <a href="/publisher_classified">
+                    <div class="caption">
+                        <h4>
+                            <strong>PERSON Publisher report</strong> <span class="glyphicon glyphicon-eye-open"></span>
+                        </h4>
+                        <p>Person classified by machine AND audited by data miners</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/snapshot.png') }}">
+                <br>
+                <a href="/publisher_category">
+                    <div class="caption">
+                        <h4>
+                            <strong>PUBLISHER report</strong> <span class="glyphicon glyphicon-eye-open"></span>
+                        </h4>
+                        <p>Publishers breakdown by categories and countries</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/money_symbol.png') }}">
+                <br>
+                <!-- <img class="img-thumbnail" src="http://placehold.it/500x250/EEE"> -->
+                <a href="/messages_deleted">
+                    <div class="caption">
+                        <h4>
+                            <strong>Messages deleted contain ticker</strong> <span class="glyphicon glyphicon-dashboard"></span>
+                        </h4>
+                        <p>Analyst team only</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/count.gif') }}">
+                <br>
+                <a href="/count_messages">
+                    <div class="caption">
+                        <h4>
+                            <strong>Count release messages</strong> <span class="glyphicon glyphicon-user"></span>
+                        </h4>
+                        <p>Analyst team only</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/quality.jpg') }}">
+                <br>
+                <a href="/quality_keywords">
+                    <div class="caption">
+                        <h4>
+                            <strong>Quality keywords</strong> <span class="glyphicon glyphicon-eye-open"></span>
+                        </h4>
+                        <p>Analyst team only</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/wrong.jpg') }}">
+                <br>
+                <!-- <img class="img-thumbnail" src="http://placehold.it/500x250/EEE"> -->
+                <a href="/wrong_legalnames">
+                    <div class="caption">
+                        <h4>
+                            <strong>Check wrong legal name</strong> <span class="glyphicon glyphicon-user"></span>
+                        </h4>
+                        <p>Analyst team only</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/mixed_box.jpg') }}">
+                <br>
+                <!-- <img class="img-thumbnail" src="http://placehold.it/500x250/EEE"> -->
+                <a href="/mixed_box">
+                    <div class="caption">
+                        <h4>
+                            <strong>Mixed box messages</strong> <span class="glyphicon glyphicon-user"></span>
+                        </h4>
+                        <p>Analyst team only</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/birds.jpg') }}">
+                <br>
+                <!-- <img class="img-thumbnail" src="http://placehold.it/500x250/EEE"> -->
+                <a href="/gnip">
+                    <div class="caption">
+                        <h4>
+                            <strong>GNIP keyword generator</strong> <span class="glyphicon glyphicon-dashboard"></span>
+                        </h4>
+                        <p>Data Miner team only</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/duplication.jpg') }}">
+                <br>
+                <!-- <img class="img-thumbnail" src="http://placehold.it/500x250/EEE"> -->
+                <a href="/check_ner_duplication">
+                    <div class="caption">
+                        <h4>
+                            <strong>Check NER duplication</strong> <span class="glyphicon glyphicon-user"></span>
+                        </h4>
+                        <p>Data Analyst team only</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/financial.jpg') }}">
+                <br>
+                <!-- <img class="img-thumbnail" src="http://placehold.it/500x250/EEE"> -->
+                <a href="/check_financial_terms">
+                    <div class="caption">
+                        <h4>
+                            <strong>Check financial terms</strong> <span class="glyphicon glyphicon-user"></span>
+                        </h4>
+                        <p>Data Analyst team only</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+            <div class="card">
+                <img class="img-responsive" src="{{ url_for('static', filename='images/financial.jpg') }}">
+                <br>
+                <!-- <img class="img-thumbnail" src="http://placehold.it/500x250/EEE"> -->
+                <a href="/bloomberg_crawler">
+                    <div class="caption">
+                        <h4>
+                            <strong>Bloomberg Crawler</strong> <span class="glyphicon glyphicon-user"></span>
+                        </h4>
+                        <p>Profile Management</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
